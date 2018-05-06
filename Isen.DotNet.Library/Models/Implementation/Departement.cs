@@ -5,15 +5,16 @@ namespace Isen.DotNet.Library.Models.Implementation
 {
     public class Departement : BaseModel
     {
-        public string _nom { get; set; }
-        public int _codeDepartement { get; set; }
-        public List<Commune> _communeCollection { get; set; }
-        
-        public int? DepartementId { get; set; }
+        public string Nom { get; set; }
+        public int CodeDepartement { get; set; }
+        public List<Commune> CommuneCollection { get; set; }
 
-        public Departement()
+        public override dynamic ToDynamic()
         {
-            
+            var response = base.ToDynamic();
+            response.nom = Nom;
+            response.codedepartement = CodeDepartement;
+            return response;
         }
         
     }
