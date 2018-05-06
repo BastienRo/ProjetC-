@@ -4,15 +4,17 @@ namespace Isen.DotNet.Library.Models.Implementation
 {
     public class Commune : BaseModel
     {
-        public string _nom  { get;set;}
-        public float _latitude  { get;set;}
-        public float _longitute  { get;set;}
+        public string Nom  { get;set;}
+        public float Latitude  { get;set;}
+        public float Longitude  { get;set;}
         
-        public int? CommuneId { get; set; }
-
-        public Commune()
+        public override dynamic ToDynamic()
         {
-            
+            var response = base.ToDynamic();
+            response.nom = Nom;
+            response.latitude = Latitude;
+            response.longitude = Longitude;
+            return response;
         }
 
     }

@@ -5,18 +5,23 @@ namespace Isen.DotNet.Library.Models.Implementation
 {
     public class Adresse : BaseModel
     {
-        public string _lignetxt  { get;set;}
-        public int _codePostal { get; set; }
-        public Departement _departement { get; set; }
-        public Commune _commune  { get;set;}
-        public float _latitude  { get;set;}
-        public float _longitude  { get;set;}
+        public string LigneTxt  { get;set;}
+        public int CodePostal { get; set; }
+        public Departement Departement { get; set; }
+        public Commune Commune  { get;set;}
+        public float Latitude  { get;set;}
+        public float Longitude  { get;set;}
         
-        public int? AdresseId { get; set; }
-
-        public Adresse()
+        public override dynamic ToDynamic()
         {
-            
+            var response = base.ToDynamic();
+            response.lignetxt = LigneTxt;
+            response.codepostal = CodePostal;
+            response.departement = Departement;
+            response.commune = Commune;
+            response.latitude = Latitude;
+            response.longitude = Longitude;
+            return response;
         }
     }
 }
