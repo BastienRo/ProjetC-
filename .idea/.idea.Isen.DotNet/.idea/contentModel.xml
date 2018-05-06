@@ -47,6 +47,7 @@
             <e p="DbContextCommuneRepository.cs" t="Include" />
             <e p="DbContextDepartementRepository.cs" t="Include" />
             <e p="DbContextPersonRepository.cs" t="Include" />
+            <e p="DbContextPointOfInterestRepository.cs" t="Include" />
           </e>
           <e p="Interfaces" t="Include">
             <e p="_IBaseRepository.cs" t="Include" />

@@ -1,19 +1,21 @@
-﻿using Isen.DotNet.Library.Models.Base;
+﻿using System;
+using System.Runtime.CompilerServices;
+using Isen.DotNet.Library.Models.Base;
 
 namespace Isen.DotNet.Library.Models.Implementation
 {
     public class CategoriePoint : BaseModel
     {
-        public string _nom  { get;set;}
-        public string _descriptif  { get;set;}
+        public string Nom  { get;set;}
+        public string Descriptif  { get;set;}
 
-        public int? CategorieId { get; set; }
 
-        public CategoriePoint()
+        public override dynamic ToDynamic()
         {
-            
+            var response = base.ToDynamic();
+            response.name = Nom;
+            response.descriptif = Descriptif;
+            return response;
         }
-        
-
     }
 }
