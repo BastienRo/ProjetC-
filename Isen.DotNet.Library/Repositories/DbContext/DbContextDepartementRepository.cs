@@ -1,20 +1,24 @@
-﻿namespace Isen.DotNet.Library.Repositories.DbContext
-{
-    public class DbContextDepartementRepository
-    {
-        public class DbContextCityRepository :
-            BaseDbContextRepository<City>, ICityRepository
-        {
-            public DbContextCityRepository(
-                ILogger<DbContextCityRepository> logger, 
-                ApplicationDbContext context) 
-                : base(logger, context)
-            {
-            }
+﻿using System.Linq;
+using Isen.DotNet.Library.Data;
+using Isen.DotNet.Library.Models.Implementation;
+using Isen.DotNet.Library.Repositories.Interfaces;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
-            public override IQueryable<City> Includes(
-                IQueryable<City> queryable)
-                => queryable.Include(c => c.PersonCollection);
+namespace Isen.DotNet.Library.Repositories.DbContext
+{
+    public class DbContextDepartementRepository :
+        BaseDbContextRepository<Departement>, IDepartementRepository
+    {
+        public DbContextDepartementRepository(
+            ILogger<DbContextDepartementRepository> logger,
+            ApplicationDbContext context)
+            : base(logger, context)
+        {
         }
+
+        public override IQueryable<Departement> Includes(
+            IQueryable<Departement> queryable)
+            => queryable.Include(c => c._communeCollection);
     }
 }
