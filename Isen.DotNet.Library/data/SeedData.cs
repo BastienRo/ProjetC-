@@ -13,6 +13,10 @@ namespace Isen.DotNet.Library.Data
         private readonly ILogger<SeedData> _logger;
         private readonly ICityRepository _cityRepository;
         private readonly IPersonRepository _personRepository;
+        private readonly ICommuneRepository _communeRepository;
+        private readonly IPointOfInterestRepository _pointsRepository;
+        private readonly ICategoriePointRepository _categorieRepository;
+        private readonly IAdresseRepository _adresseRepository;
 
         public SeedData(
             ApplicationDbContext context,
@@ -92,6 +96,85 @@ namespace Isen.DotNet.Library.Data
             _personRepository.Save();
 
             _logger.LogWarning("Added persons");
+        }
+
+        public void AddCommunes()
+        {
+            if (_communeRepository.GetAll().Any()) return;
+            _logger.LogWarning("Adding communes");
+
+            var communes = new List<Commune>
+            {
+                new Commune { 
+                    Name = "Toulon",
+                    Latitude = 16,
+                    Longitude = 12
+                    }
+            };
+            _communeRepository.UpdateRange(communes);
+            _communeRepository.Save();
+
+            _logger.LogWarning("Added communes");
+        }
+
+        public void AddAdresses()
+        {
+            if (_adresseRepository.GetAll().Any()) return;
+            _logger.LogWarning("Adding adresses");
+
+            var adresses = new List<Adresse>
+            {
+                new Adresse { 
+                    Name = "Mont Faron",
+                    LigneTxt = "Mont Faron",
+                    Commune = _communeRepository.Single("Toulon"),
+                    CodePostal = 83000,
+                    Latitude = 17,
+                    Longitude = 13
+                    }
+            };
+            _adresseRepository.UpdateRange(adresses);
+            _adresseRepository.Save();
+
+            _logger.LogWarning("Added adresses");
+        }
+
+        public void AddCategories()
+        {
+            if (_categorieRepository.GetAll().Any()) return;
+            _logger.LogWarning("Adding categories");
+
+            var categories = new List<CategoriePoint>
+            {
+                new CategoriePoint { 
+                    Name = "Nature",
+                    Description = "Respirer l'air frais",
+                    }
+            };
+            _categorieRepository.UpdateRange(categories);
+            _categorieRepository.Save();
+
+            _logger.LogWarning("Added categories");
+        }
+
+        public void AddPoints()
+        {
+            if (_pointsRepository.GetAll().Any()) return;
+            _logger.LogWarning("Adding points");
+
+            var points = new List<PointOfInterest>
+            {
+                new PointOfInterest { 
+                    Name = "Mont Faron",
+                    Description = "Montagne a Toulon",
+                    Categorie = _categorieRepository.Single("Nature"),
+                    Adresse = _adresseRepository.Single("Mont Faron"),
+                    }
+            };
+            _pointsRepository.UpdateRange(points);
+            _pointsRepository.Save();
+
+            _logger.LogWarning("Added points");
         }
     }
 }

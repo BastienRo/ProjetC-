@@ -1,17 +1,17 @@
 ﻿@using Isen.DotNet.Library.Models.Implementation;
 @{
-    ViewData["Title"] = "Villes";
+    ViewData["Title"] = "PointsInterets";
 }
-@model IEnumerable<City>
+@model IEnumerable<PointOfInterest>
 
 <div class="row">
     <div class="col-md-12">
-        <h1>Villes <small>/city/index</small></h1>
+        <h1>Points d'interêts <small>/PointOfInterest/index</small></h1>
     </div>
 </div>
 <div class="row">
     <a class="btn btn-default" 
-        asp-controller="City" asp-action="Detail">Ajouter une ville...</a>
+        asp-controller="City" asp-action="Detail">Ajouter un point d'interêt...</a>
 </div>
 <div class="row">
     <table class="table table-striped">
@@ -19,21 +19,25 @@
             <tr>
                 <th>#</th>
                 <th>Nom</th>
-                <th>Population</th>
+                <th>Description</th>
+                <th>Catégorie</th>
+                <th>Adresse</th>
                 <th></th>
             </tr>
         </thead>
         <tbody>
-            @foreach(var city in Model)
+            @foreach(var point in Model)
             {
             <tr>
-                <td>@city.Id</td>
-                <td>@city.Name</td>
-                <td>@city.PersonCount</td>
+                <td>@point.Id</td>
+                <td>@point.Name</td>
+                <td>@point.Description</td>
+                <td>@point.Categorie</td>
+                <td>@point.Adresse</td>
                 <td>
-                    <a class="btn btn-default" asp-controller="City" asp-action="Detail" asp-route-id="@city.Id">Editer</a>
+                    <a class="btn btn-default" asp-controller="PointOfInterest" asp-action="Detail" asp-route-id="@point.Id">Editer</a>
                     &nbsp;
-                    <a class="btn btn-danger" asp-controller="City" asp-action="Delete" asp-route-id="@city.Id">Supprimer</a>
+                    <a class="btn btn-danger" asp-controller="PointOfInterest" asp-action="Delete" asp-route-id="@point.Id">Supprimer</a>
                 </td>
             </tr>
             }

@@ -5,7 +5,6 @@ namespace Isen.DotNet.Library.Models.Implementation
 {
     public class PointOfInterest : BaseModel
     {
-        public string Nom { get; set; }
         public string Description { get; set; }
         public CategoriePoint Categorie { get; set; }
         public Adresse Adresse { get; set; }
@@ -15,7 +14,6 @@ namespace Isen.DotNet.Library.Models.Implementation
         public override dynamic ToDynamic()
         {
             var response = base.ToDynamic();
-            response.name = Nom;
             response.description = Description;
             response.categoriePoint = Categorie;
             response.adresse = Adresse?.ToDynamic();

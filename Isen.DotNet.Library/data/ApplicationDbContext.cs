@@ -30,6 +30,7 @@ namespace Isen.DotNet.Library.Data
                 .HasOne(p => p.City)
                 .WithMany(c => c.PersonCollection)
                 .HasForeignKey(p => p.CityId);
+
         }
     }
 }
