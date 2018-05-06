@@ -19,6 +19,6 @@ namespace Isen.DotNet.Library.Repositories.DbContext
 
         public override IQueryable<Departement> Includes(
             IQueryable<Departement> queryable)
-            => queryable.Include(c => c._communeCollection);
+            => queryable.Include(c => c.CommuneCollection);
     }
 }
