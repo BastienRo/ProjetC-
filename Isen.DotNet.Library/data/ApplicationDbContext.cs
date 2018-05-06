@@ -8,6 +8,11 @@ namespace Isen.DotNet.Library.Data
         // 1 - Préciser les DbSet
         public DbSet<City> CityCollection { get;set; }
         public DbSet<Person> PersonCollection { get;set; }
+        public DbSet<PointOfInterest> PointOfInterestCollection { get; set; }
+        public DbSet<CategoriePoint> CategoriePointCollection { get; set; }
+        public DbSet<Adresse> AdresseCollection { get; set; }
+        public DbSet<Commune> CommuneCollection { get; set; }
+        public DbSet<Departement> DepartementCollection { get; set; }
 
         public ApplicationDbContext(
             DbContextOptions<ApplicationDbContext> options) 
@@ -30,7 +35,6 @@ namespace Isen.DotNet.Library.Data
                 .HasOne(p => p.City)
                 .WithMany(c => c.PersonCollection)
                 .HasForeignKey(p => p.CityId);
-
         }
     }
 }
