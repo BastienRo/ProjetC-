@@ -7,7 +7,6 @@ namespace Isen.DotNet.Library.Models.Implementation
     {
         public string LigneTxt  { get;set;}
         public int CodePostal { get; set; }
-        public Departement Departement { get; set; }
         public Commune Commune  { get;set;}
         public float Latitude  { get;set;}
         public float Longitude  { get;set;}
@@ -17,7 +16,6 @@ namespace Isen.DotNet.Library.Models.Implementation
             var response = base.ToDynamic();
             response.lignetxt = LigneTxt;
             response.codepostal = CodePostal;
-            response.departement = Departement;
             response.commune = Commune;
             response.latitude = Latitude;
             response.longitude = Longitude;

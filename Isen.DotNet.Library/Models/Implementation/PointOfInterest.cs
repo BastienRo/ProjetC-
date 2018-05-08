@@ -5,6 +5,7 @@ namespace Isen.DotNet.Library.Models.Implementation
 {
     public class PointOfInterest : BaseModel
     {
+        public string Nom { get; set; }
         public string Description { get; set; }
         public CategoriePoint Categorie { get; set; }
         public Adresse Adresse { get; set; }
