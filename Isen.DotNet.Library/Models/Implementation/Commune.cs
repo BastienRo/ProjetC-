@@ -9,6 +9,8 @@ namespace Isen.DotNet.Library.Models.Implementation
         public float Latitude  { get;set;}
         public float Longitude  { get;set;}
         
+        public int? DepartementId { get;set; }
+        
         public override dynamic ToDynamic()
         {
             var response = base.ToDynamic();

@@ -35,6 +35,26 @@ namespace Isen.DotNet.Library.Data
                 .HasOne(p => p.City)
                 .WithMany(c => c.PersonCollection)
                 .HasForeignKey(p => p.CityId);
+            
+            builder.Entity<Departement>()
+                .ToTable("Departement")
+                .HasMany(c => c.CommuneCollection)
+                .WithOne(p => p.Departement)
+                .OnDelete(DeleteBehavior.SetNull);
+
+            builder.Entity<Commune>()
+                .ToTable("Commune")
+                .HasOne(p => p.Departement)
+                .WithMany(c => c.CommuneCollection)
+                .HasForeignKey(p => p.DepartementId);
+
+            builder.Entity<CategoriePoint>()
+                .ToTable("CategoriePoint")
+                .HasOne(c => c.Nom);
+
+            builder.Entity<PointOfInterest>()
+                .ToTable("PointOfInterest")
+                .HasOne(c => c.Categorie);
         }
     }
 }
