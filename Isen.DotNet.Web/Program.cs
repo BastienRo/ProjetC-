@@ -28,6 +28,10 @@ namespace Isen.DotNet.Web
                 seed.CreateDatabase();
                 seed.AddCities();
                 seed.AddPersons();
+                seed.AddCommunes();
+                seed.AddAdresses();
+                seed.AddCategories();
+                seed.AddPoints();
             }
             
             host.Run();
