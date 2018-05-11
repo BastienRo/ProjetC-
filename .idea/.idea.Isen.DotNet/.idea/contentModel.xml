@@ -109,6 +109,14 @@
             <e p="Detail.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
           </e>
+          <e p="Commune" t="Include">
+            <e p="Detail.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Departement" t="Include">
+            <e p="Detail.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
           <e p="Home" t="Include">
             <e p="About.cshtml" t="Include" />
             <e p="Contact.cshtml" t="Include" />

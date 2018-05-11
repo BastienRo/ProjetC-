@@ -17,5 +17,8 @@ namespace Isen.DotNet.Library.Repositories.DbContext
         {
         }
 
+        public override IQueryable<Adresse> Includes(
+            IQueryable<Adresse> queryable)
+            => queryable.Include(c => c.PointOfInterest).Include(c => c.Commune).Include(c=>c.PointOfInterest.Adresse.Commune);
     }
 }
