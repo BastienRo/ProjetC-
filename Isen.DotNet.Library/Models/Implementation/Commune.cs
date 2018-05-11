@@ -1,4 +1,5 @@
-﻿using Isen.DotNet.Library.Models.Base;
+﻿using System.Collections.Generic;
+using Isen.DotNet.Library.Models.Base;
 
 namespace Isen.DotNet.Library.Models.Implementation
 {
@@ -6,6 +7,7 @@ namespace Isen.DotNet.Library.Models.Implementation
     {
         public string Nom  { get;set;}
         public Departement Departement { get; set; }
+        public List<Adresse> AddresseCollection { get; set; }
         public float Latitude  { get;set;}
         public float Longitude  { get;set;}
         
@@ -21,4 +23,4 @@ namespace Isen.DotNet.Library.Models.Implementation
         }
 
     }
-}
+} 

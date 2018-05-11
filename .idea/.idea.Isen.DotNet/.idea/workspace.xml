@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="98245604-95a3-4f4d-b5ff-aa9cdc94cb63" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Isen.DotNet/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Isen.DotNet/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/Adresse.cs" afterPath="$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/Adresse.cs" />
       <change beforePath="$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/CategoriePoint.cs" afterPath="$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/CategoriePoint.cs" />
       <change beforePath="$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/Commune.cs" afterPath="$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/Commune.cs" />
+      <change beforePath="$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/PointOfInterest.cs" afterPath="$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/PointOfInterest.cs" />
       <change beforePath="$PROJECT_DIR$/Isen.DotNet.Library/data/ApplicationDbContext.cs" afterPath="$PROJECT_DIR$/Isen.DotNet.Library/data/ApplicationDbContext.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,252 +20,28 @@
     <splitter split-orientation="horizontal" split-proportion="0.47769186">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ApplicationDbContext.cs" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ApplicationDbContext.cs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/data/ApplicationDbContext.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="840">
-                  <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+                <state relative-caret-position="633">
+                  <caret line="70" column="12" lean-forward="true" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
                   <folding>
-                    <marker date="1525804838431" expanded="false" signature="6:85" ph="..." />
-                    <marker date="1525804838431" expanded="true" signature="121:2176" ph="{...}" />
-                    <marker date="1525804838431" expanded="true" signature="173:2174" ph="{...}" />
-                    <marker date="1525804838431" expanded="true" signature="890:2168" ph="{...}" />
+                    <marker date="1526032622128" expanded="false" signature="6:85" ph="..." />
+                    <marker date="1526032622128" expanded="true" signature="121:3092" ph="{...}" />
+                    <marker date="1526032622128" expanded="true" signature="173:3090" ph="{...}" />
+                    <marker date="1526032622128" expanded="true" signature="890:3084" ph="{...}" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Isen.DotNet.Web/Program.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
-                  <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-                  <folding>
-                    <marker date="1525804065381" expanded="false" signature="6:335" ph="..." />
-                    <marker date="1525804065381" expanded="true" signature="362:1323" ph="{...}" />
-                    <marker date="1525804065381" expanded="true" signature="389:1321" ph="{...}" />
-                    <marker date="1525804065381" expanded="true" signature="442:1140" ph="{...}" />
-                    <marker date="1525804065381" expanded="true" signature="521:622" ph="/* Récupérer une instance de SeedData ... */" />
-                    <marker date="1525804065381" expanded="true" signature="682:1093" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PointOfInterest.cs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/PointOfInterest.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-                  <folding>
-                    <marker date="1525704462718" expanded="false" signature="6:56" ph="..." />
-                    <marker date="1525704462718" expanded="true" signature="109:699" ph="{...}" />
-                    <marker date="1525704462718" expanded="true" signature="156:697" ph="{...}" />
-                    <marker date="1525704462718" expanded="true" signature="447:691" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DbContextAdresseRepository.cs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/DbContextAdresseRepository.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-                  <folding>
-                    <marker date="1525423357429" expanded="false" signature="6:223" ph="..." />
-                    <marker date="1525423357429" expanded="true" signature="386:596" ph="{...}" />
-                    <marker date="1525423357429" expanded="true" signature="569:589" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_BaseDbContextRepository.cs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/_BaseDbContextRepository.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <marker date="1521448604000" expanded="false" signature="6:304" ph="..." />
-                    <marker date="1521448604000" expanded="true" signature="473:1376" ph="{...}" />
-                    <marker date="1521448604000" expanded="true" signature="917:968" ph="{...}" />
-                    <marker date="1521448604000" expanded="true" signature="1013:1123" ph="{...}" />
-                    <marker date="1521448604000" expanded="true" signature="1169:1278" ph="{...}" />
-                    <marker date="1521448604000" expanded="true" signature="1315:1370" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DbContextCategoriePointRepository.cs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/DbContextCategoriePointRepository.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-                  <folding>
-                    <marker date="1525423357429" expanded="false" signature="6:223" ph="..." />
-                    <marker date="1525423357429" expanded="true" signature="407:630" ph="{...}" />
-                    <marker date="1525423357429" expanded="true" signature="604:624" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DbContextCityRepository.cs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/DbContextCityRepository.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-                  <folding>
-                    <marker date="1521448604000" expanded="false" signature="6:341" ph="..." />
-                    <marker date="1521448604000" expanded="true" signature="495:855" ph="{...}" />
-                    <marker date="1521448604000" expanded="true" signature="674:694" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DbContextPersonRepository.cs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/DbContextPersonRepository.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-                  <folding>
-                    <marker date="1521448604000" expanded="false" signature="6:341" ph="..." />
-                    <marker date="1521448604000" expanded="true" signature="501:857" ph="{...}" />
-                    <marker date="1521448604000" expanded="true" signature="684:704" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DbContextPointOfInterestRepository.cs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/DbContextPointOfInterestRepository.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-                  <folding>
-                    <marker date="1525616829754" expanded="false" signature="6:341" ph="..." />
-                    <marker date="1525616829754" expanded="true" signature="527:753" ph="{...}" />
-                    <marker date="1525616829754" expanded="true" signature="726:746" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DbContextCommuneRepository.cs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/DbContextCommuneRepository.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-                  <folding>
-                    <marker date="1525438330919" expanded="false" signature="6:223" ph="..." />
-                    <marker date="1525438330919" expanded="true" signature="277:597" ph="{...}" />
-                    <marker date="1525438330919" expanded="true" signature="386:595" ph="{...}" />
-                    <marker date="1525438330919" expanded="true" signature="569:589" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Index.cshtml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Isen.DotNet.Web/Views/Person/Index.cshtml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="585">
-                  <caret line="39" column="43" lean-forward="false" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
-                  <folding>
-                    <marker date="1521448604000" expanded="true" signature="50:91" ph="@..." />
-                    <marker date="1521448604000" expanded="true" signature="120:239" ph="&lt;div.../&gt;" />
-                    <marker date="1521448604000" expanded="true" signature="142:232" ph="&lt;div.../&gt;" />
-                    <marker date="1521448604000" expanded="true" signature="240:376" ph="&lt;div.../&gt;" />
-                    <marker date="1521448604000" expanded="true" signature="262:369" ph="&lt;a.../&gt;" />
-                    <marker date="1521448604000" expanded="true" signature="399:1691" ph="&lt;table.../&gt;" />
-                    <marker date="1521448604000" expanded="true" signature="443:748" ph="&lt;thead.../&gt;" />
-                    <marker date="1521448604000" expanded="true" signature="463:731" ph="&lt;tr.../&gt;" />
-                    <marker date="1521448604000" expanded="true" signature="757:1678" ph="&lt;tbody.../&gt;" />
-                    <marker date="1521448604000" expanded="true" signature="777:1661" ph="@..." />
-                    <marker date="1521448604000" expanded="true" signature="806:1661" ph="{...}" />
-                    <marker date="1521448604000" expanded="true" signature="833:1647" ph="&lt;tr.../&gt;" />
-                    <marker date="1521448604000" expanded="true" signature="1168:1629" ph="&lt;td.../&gt;" />
-                    <marker date="1521448604000" expanded="true" signature="1193:1375" ph="&lt;a.../&gt;" />
-                    <marker date="1521448604000" expanded="true" signature="1423:1607" ph="&lt;a.../&gt;" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Adresse.cs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/Adresse.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-                  <folding>
-                    <marker date="1525704628669" expanded="false" signature="6:72" ph="..." />
-                    <marker date="1525704628669" expanded="true" signature="125:758" ph="{...}" />
-                    <marker date="1525704628669" expanded="true" signature="164:756" ph="{...}" />
-                    <marker date="1525704628669" expanded="true" signature="442:750" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Departement.cs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/Departement.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-                  <folding>
-                    <marker date="1525618771407" expanded="false" signature="6:72" ph="..." />
-                    <marker date="1525618771407" expanded="true" signature="125:568" ph="{...}" />
-                    <marker date="1525618771407" expanded="true" signature="168:566" ph="{...}" />
-                    <marker date="1525618771407" expanded="true" signature="369:551" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DbContextDepartementRepository.cs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/DbContextDepartementRepository.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-                  <folding>
-                    <marker date="1525618771411" expanded="false" signature="6:223" ph="..." />
-                    <marker date="1525618771411" expanded="true" signature="277:783" ph="{...}" />
-                    <marker date="1525618771411" expanded="true" signature="398:781" ph="{...}" />
-                    <marker date="1525618771411" expanded="true" signature="589:609" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CategoriePoint.cs" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/CategoriePoint.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-                  <folding>
-                    <marker date="1525804929921" expanded="false" signature="6:91" ph="..." />
-                    <marker date="1525804929921" expanded="true" signature="144:486" ph="{...}" />
-                    <marker date="1525804929921" expanded="true" signature="190:484" ph="{...}" />
-                    <marker date="1525804929921" expanded="true" signature="337:478" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SeedData.cs" pinned="false" current-in-tab="false">
+          <file leaf-file-name="SeedData.cs" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/data/SeedData.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
+                <state relative-caret-position="-282">
                   <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding>
-                    <marker date="1525623678002" expanded="false" signature="6:202" ph="..." />
+                    <marker date="1525623678002" expanded="true" signature="6:202" ph="..." />
                     <marker date="1525623678002" expanded="true" signature="238:5856" ph="{...}" />
                     <marker date="1525623678002" expanded="true" signature="266:5854" ph="{...}" />
                     <marker date="1525623678002" expanded="true" signature="970:1148" ph="{...}" />
@@ -293,15 +71,50 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Commune.cs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/Commune.cs">
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="Departement.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/Departement.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+                <state relative-caret-position="285">
+                  <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
                   <folding>
-                    <marker date="1525804065497" expanded="true" signature="91:645" ph="{...}" />
-                    <marker date="1525804065497" expanded="true" signature="130:643" ph="{...}" />
-                    <marker date="1525804065497" expanded="true" signature="424:636" ph="{...}" />
+                    <marker date="1525618771407" expanded="false" signature="6:72" ph="..." />
+                    <marker date="1525618771407" expanded="true" signature="125:568" ph="{...}" />
+                    <marker date="1525618771407" expanded="true" signature="168:566" ph="{...}" />
+                    <marker date="1525618771407" expanded="true" signature="369:551" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Adresse.cs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/Adresse.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+                  <folding>
+                    <marker date="1526032421431" expanded="false" signature="6:72" ph="..." />
+                    <marker date="1526032421431" expanded="true" signature="125:872" ph="{...}" />
+                    <marker date="1526032421431" expanded="true" signature="164:870" ph="{...}" />
+                    <marker date="1526032421431" expanded="true" signature="556:864" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CategoriePoint.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/CategoriePoint.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+                  <folding>
+                    <marker date="1526032719994" expanded="false" signature="6:147" ph="..." />
+                    <marker date="1526032719994" expanded="true" signature="200:620" ph="{...}" />
+                    <marker date="1526032719994" expanded="true" signature="246:618" ph="{...}" />
+                    <marker date="1526032719994" expanded="true" signature="471:612" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -314,9 +127,23 @@
                   <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
                   <folding>
                     <marker date="1521448604000" expanded="false" signature="6:86" ph="..." />
-                    <marker date="1521448604000" expanded="true" signature="139:486" ph="{...}" />
                     <marker date="1521448604000" expanded="true" signature="175:484" ph="{...}" />
                     <marker date="1521448604000" expanded="true" signature="345:478" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Commune.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/Commune.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+                  <folding>
+                    <marker date="1526032719913" expanded="true" signature="6:72" ph="..." />
+                    <marker date="1526032719913" expanded="true" signature="125:741" ph="{...}" />
+                    <marker date="1526032719913" expanded="true" signature="164:739" ph="{...}" />
+                    <marker date="1526032719913" expanded="true" signature="520:732" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -333,6 +160,21 @@
                     <marker date="1521448604000" expanded="true" signature="143:1126" ph="{...}" />
                     <marker date="1521448604000" expanded="true" signature="432:550" ph="{...}" />
                     <marker date="1521448604000" expanded="true" signature="829:1120" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PointOfInterest.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/PointOfInterest.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+                  <folding>
+                    <marker date="1526032720066" expanded="false" signature="6:56" ph="..." />
+                    <marker date="1526032720066" expanded="true" signature="109:753" ph="{...}" />
+                    <marker date="1526032720066" expanded="true" signature="156:751" ph="{...}" />
+                    <marker date="1526032720066" expanded="true" signature="501:745" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -385,6 +227,7 @@
     <setting file="file://$PROJECT_DIR$/Isen.DotNet.Web/Views/Person/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Isen.DotNet.Web/Controllers/_BaseController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Isen.DotNet.Web/Models/ErrorViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Isen.DotNet.Library/Hello.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Isen.DotNet.Library/data/SeedData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Isen.DotNet.Library/data/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Base/BaseModel.cs" root0="FORCE_HIGHLIGHTING" />
@@ -428,10 +271,10 @@
         <option value="$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/DbContextPointOfInterestRepository.cs" />
         <option value="$PROJECT_DIR$/Isen.DotNet.Web/Views/PointOfInterest/Detail.cshtml" />
         <option value="$PROJECT_DIR$/Isen.DotNet.Web/Views/PointOfInterest/Index.cshtml" />
-        <option value="$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/Adresse.cs" />
-        <option value="$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/PointOfInterest.cs" />
-        <option value="$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/Commune.cs" />
         <option value="$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/CategoriePoint.cs" />
+        <option value="$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/Commune.cs" />
+        <option value="$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/PointOfInterest.cs" />
+        <option value="$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/Adresse.cs" />
         <option value="$PROJECT_DIR$/Isen.DotNet.Library/data/ApplicationDbContext.cs" />
       </list>
     </option>
@@ -442,7 +285,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -485,18 +328,6 @@
               <item name="Isen.DotNet (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Isen.DotNet.Library" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Isen.DotNet (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Isen.DotNet.Library" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Implementation" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Isen.DotNet (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Isen.DotNet.Web" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -560,12 +391,14 @@
       <workItem from="1525415148971" duration="12393000" />
       <workItem from="1525614579269" duration="11518000" />
       <workItem from="1525701911384" duration="2244000" />
-      <workItem from="1525801867885" duration="2453000" />
+      <workItem from="1525801867885" duration="2500000" />
+      <workItem from="1525953436327" duration="1135000" />
+      <workItem from="1526024555927" duration="2264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41304000" />
+    <option name="totallyTimeSpent" value="44750000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -577,23 +410,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15885417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18489583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -616,7 +448,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/InMemory/InMemoryCityRepository.cs" />
     <entry file="file://$PROJECT_DIR$/Isen.DotNet.ConsoleApp/Program.cs" />
     <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/InMemory/InMemoryPersonRepository.cs" />
     <entry file="file://$PROJECT_DIR$/Isen.DotNet.Web/Startup.cs">
@@ -820,111 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="43" lean-forward="false" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
-          <folding>
-            <marker date="1521448604000" expanded="true" signature="50:91" ph="@..." />
-            <marker date="1521448604000" expanded="true" signature="120:239" ph="&lt;div.../&gt;" />
-            <marker date="1521448604000" expanded="true" signature="142:232" ph="&lt;div.../&gt;" />
-            <marker date="1521448604000" expanded="true" signature="240:376" ph="&lt;div.../&gt;" />
-            <marker date="1521448604000" expanded="true" signature="262:369" ph="&lt;a.../&gt;" />
-            <marker date="1521448604000" expanded="true" signature="399:1691" ph="&lt;table.../&gt;" />
-            <marker date="1521448604000" expanded="true" signature="443:748" ph="&lt;thead.../&gt;" />
-            <marker date="1521448604000" expanded="true" signature="463:731" ph="&lt;tr.../&gt;" />
-            <marker date="1521448604000" expanded="true" signature="757:1678" ph="&lt;tbody.../&gt;" />
-            <marker date="1521448604000" expanded="true" signature="777:1661" ph="@..." />
-            <marker date="1521448604000" expanded="true" signature="806:1661" ph="{...}" />
-            <marker date="1521448604000" expanded="true" signature="833:1647" ph="&lt;tr.../&gt;" />
-            <marker date="1521448604000" expanded="true" signature="1168:1629" ph="&lt;td.../&gt;" />
-            <marker date="1521448604000" expanded="true" signature="1193:1375" ph="&lt;a.../&gt;" />
-            <marker date="1521448604000" expanded="true" signature="1423:1607" ph="&lt;a.../&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/DbContextPointOfInterestRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <marker date="1525616829754" expanded="false" signature="6:341" ph="..." />
-            <marker date="1525616829754" expanded="true" signature="527:753" ph="{...}" />
-            <marker date="1525616829754" expanded="true" signature="726:746" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/DbContextPersonRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <marker date="1521448604000" expanded="false" signature="6:341" ph="..." />
-            <marker date="1521448604000" expanded="true" signature="501:857" ph="{...}" />
-            <marker date="1521448604000" expanded="true" signature="684:704" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/DbContextCommuneRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1525438330919" expanded="false" signature="6:223" ph="..." />
-            <marker date="1525438330919" expanded="true" signature="277:597" ph="{...}" />
-            <marker date="1525438330919" expanded="true" signature="386:595" ph="{...}" />
-            <marker date="1525438330919" expanded="true" signature="569:589" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/DbContextCityRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <marker date="1521448604000" expanded="false" signature="6:341" ph="..." />
-            <marker date="1521448604000" expanded="true" signature="495:855" ph="{...}" />
-            <marker date="1521448604000" expanded="true" signature="674:694" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/DbContextCategoriePointRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <marker date="1525423357429" expanded="false" signature="6:223" ph="..." />
-            <marker date="1525423357429" expanded="true" signature="407:630" ph="{...}" />
-            <marker date="1525423357429" expanded="true" signature="604:624" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/DbContextAdresseRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <marker date="1525423357429" expanded="false" signature="6:223" ph="..." />
-            <marker date="1525423357429" expanded="true" signature="386:596" ph="{...}" />
-            <marker date="1525423357429" expanded="true" signature="569:589" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/_BaseDbContextRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1521448604000" expanded="false" signature="6:304" ph="..." />
-            <marker date="1521448604000" expanded="true" signature="473:1376" ph="{...}" />
-            <marker date="1521448604000" expanded="true" signature="917:968" ph="{...}" />
-            <marker date="1521448604000" expanded="true" signature="1013:1123" ph="{...}" />
-            <marker date="1521448604000" expanded="true" signature="1169:1278" ph="{...}" />
-            <marker date="1521448604000" expanded="true" signature="1315:1370" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -932,34 +658,182 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/City.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
-            <marker date="1525618771411" expanded="false" signature="6:223" ph="..." />
-            <marker date="1525618771411" expanded="true" signature="277:783" ph="{...}" />
-            <marker date="1525618771411" expanded="true" signature="398:781" ph="{...}" />
-            <marker date="1525618771411" expanded="true" signature="589:609" ph="{...}" />
+            <marker date="1521448604000" expanded="false" signature="6:86" ph="..." />
+            <marker date="1521448604000" expanded="true" signature="175:484" ph="{...}" />
+            <marker date="1521448604000" expanded="true" signature="345:478" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Web/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/DbContextAdresseRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/_BaseDbContextRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/DbContextCategoriePointRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/DbContextCityRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/DbContextPersonRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/DbContextPointOfInterestRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Repositories/DbContext/DbContextCommuneRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Hello.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/CategoriePoint.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <marker date="1526032719994" expanded="false" signature="6:147" ph="..." />
+            <marker date="1526032719994" expanded="true" signature="200:620" ph="{...}" />
+            <marker date="1526032719994" expanded="true" signature="246:618" ph="{...}" />
+            <marker date="1526032719994" expanded="true" signature="471:612" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/Person.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <marker date="1521448604000" expanded="false" signature="6:52" ph="..." />
+            <marker date="1521448604000" expanded="true" signature="105:1128" ph="{...}" />
+            <marker date="1521448604000" expanded="true" signature="143:1126" ph="{...}" />
+            <marker date="1521448604000" expanded="true" signature="432:550" ph="{...}" />
+            <marker date="1521448604000" expanded="true" signature="829:1120" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/Departement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <marker date="1525618771407" expanded="false" signature="6:72" ph="..." />
+            <marker date="1525618771407" expanded="true" signature="125:568" ph="{...}" />
+            <marker date="1525618771407" expanded="true" signature="168:566" ph="{...}" />
+            <marker date="1525618771407" expanded="true" signature="369:551" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/Commune.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <marker date="1526032719913" expanded="true" signature="6:72" ph="..." />
+            <marker date="1526032719913" expanded="true" signature="125:741" ph="{...}" />
+            <marker date="1526032719913" expanded="true" signature="164:739" ph="{...}" />
+            <marker date="1526032719913" expanded="true" signature="520:732" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/PointOfInterest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <marker date="1526032720066" expanded="false" signature="6:56" ph="..." />
+            <marker date="1526032720066" expanded="true" signature="109:753" ph="{...}" />
+            <marker date="1526032720066" expanded="true" signature="156:751" ph="{...}" />
+            <marker date="1526032720066" expanded="true" signature="501:745" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/Adresse.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        <state relative-caret-position="165">
+          <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
           <folding>
-            <marker date="1525704628669" expanded="false" signature="6:72" ph="..." />
-            <marker date="1525704628669" expanded="true" signature="125:758" ph="{...}" />
-            <marker date="1525704628669" expanded="true" signature="164:756" ph="{...}" />
-            <marker date="1525704628669" expanded="true" signature="442:750" ph="{...}" />
+            <marker date="1526032421431" expanded="false" signature="6:72" ph="..." />
+            <marker date="1526032421431" expanded="true" signature="125:872" ph="{...}" />
+            <marker date="1526032421431" expanded="true" signature="164:870" ph="{...}" />
+            <marker date="1526032421431" expanded="true" signature="556:864" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/data/ApplicationDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="70" column="12" lean-forward="true" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+          <folding>
+            <marker date="1526032622128" expanded="false" signature="6:85" ph="..." />
+            <marker date="1526032622128" expanded="true" signature="121:3092" ph="{...}" />
+            <marker date="1526032622128" expanded="true" signature="173:3090" ph="{...}" />
+            <marker date="1526032622128" expanded="true" signature="890:3084" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/data/SeedData.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-282">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1525623678002" expanded="false" signature="6:202" ph="..." />
+            <marker date="1525623678002" expanded="true" signature="6:202" ph="..." />
             <marker date="1525623678002" expanded="true" signature="238:5856" ph="{...}" />
             <marker date="1525623678002" expanded="true" signature="266:5854" ph="{...}" />
             <marker date="1525623678002" expanded="true" signature="970:1148" ph="{...}" />
@@ -984,112 +858,6 @@
             <marker date="1525623678002" expanded="true" signature="5203:5848" ph="{...}" />
             <marker date="1525623678002" expanded="true" signature="5385:5699" ph="{...}" />
             <marker date="1525623678002" expanded="true" signature="5423:5685" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/City.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <marker date="1521448604000" expanded="false" signature="6:86" ph="..." />
-            <marker date="1521448604000" expanded="true" signature="139:486" ph="{...}" />
-            <marker date="1521448604000" expanded="true" signature="175:484" ph="{...}" />
-            <marker date="1521448604000" expanded="true" signature="345:478" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/Person.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <marker date="1521448604000" expanded="false" signature="6:52" ph="..." />
-            <marker date="1521448604000" expanded="true" signature="105:1128" ph="{...}" />
-            <marker date="1521448604000" expanded="true" signature="143:1126" ph="{...}" />
-            <marker date="1521448604000" expanded="true" signature="432:550" ph="{...}" />
-            <marker date="1521448604000" expanded="true" signature="829:1120" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Web/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <marker date="1525804065381" expanded="false" signature="6:335" ph="..." />
-            <marker date="1525804065381" expanded="true" signature="362:1323" ph="{...}" />
-            <marker date="1525804065381" expanded="true" signature="389:1321" ph="{...}" />
-            <marker date="1525804065381" expanded="true" signature="442:1140" ph="{...}" />
-            <marker date="1525804065381" expanded="true" signature="521:622" ph="/* Récupérer une instance de SeedData ... */" />
-            <marker date="1525804065381" expanded="true" signature="682:1093" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/Commune.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <marker date="1525804065497" expanded="true" signature="91:645" ph="{...}" />
-            <marker date="1525804065497" expanded="true" signature="130:643" ph="{...}" />
-            <marker date="1525804065497" expanded="true" signature="424:636" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/PointOfInterest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <marker date="1525704462718" expanded="false" signature="6:56" ph="..." />
-            <marker date="1525704462718" expanded="true" signature="109:699" ph="{...}" />
-            <marker date="1525704462718" expanded="true" signature="156:697" ph="{...}" />
-            <marker date="1525704462718" expanded="true" signature="447:691" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/Departement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <marker date="1525618771407" expanded="false" signature="6:72" ph="..." />
-            <marker date="1525618771407" expanded="true" signature="125:568" ph="{...}" />
-            <marker date="1525618771407" expanded="true" signature="168:566" ph="{...}" />
-            <marker date="1525618771407" expanded="true" signature="369:551" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/Models/Implementation/CategoriePoint.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <marker date="1525804929921" expanded="false" signature="6:91" ph="..." />
-            <marker date="1525804929921" expanded="true" signature="144:486" ph="{...}" />
-            <marker date="1525804929921" expanded="true" signature="190:484" ph="{...}" />
-            <marker date="1525804929921" expanded="true" signature="337:478" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Isen.DotNet.Library/data/ApplicationDbContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-          <folding>
-            <marker date="1525804838431" expanded="false" signature="6:85" ph="..." />
-            <marker date="1525804838431" expanded="true" signature="121:2176" ph="{...}" />
-            <marker date="1525804838431" expanded="true" signature="173:2174" ph="{...}" />
-            <marker date="1525804838431" expanded="true" signature="890:2168" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -35,12 +35,11 @@ namespace Isen.DotNet.Library.Data
                 .HasOne(p => p.City)
                 .WithMany(c => c.PersonCollection)
                 .HasForeignKey(p => p.CityId);
-            
+
             builder.Entity<Departement>()
                 .ToTable("Departement")
                 .HasMany(c => c.CommuneCollection)
-                .WithOne(p => p.Departement)
-                .OnDelete(DeleteBehavior.SetNull);
+                .WithOne(p => p.Departement);
 
             builder.Entity<Commune>()
                 .ToTable("Commune")
@@ -48,13 +47,38 @@ namespace Isen.DotNet.Library.Data
                 .WithMany(c => c.CommuneCollection)
                 .HasForeignKey(p => p.DepartementId);
 
+            builder.Entity<Commune>()
+                .ToTable("Commune")
+                .HasMany(c => c.AddresseCollection)
+                .WithOne(p => p.Commune);
+
             builder.Entity<CategoriePoint>()
                 .ToTable("CategoriePoint")
-                .HasOne(c => c.Nom);
+                .HasMany(c=>c.PointOfInterestCollection)
+                .WithOne(p => p.Categorie)
+                .OnDelete(DeleteBehavior.SetNull);
 
             builder.Entity<PointOfInterest>()
                 .ToTable("PointOfInterest")
-                .HasOne(c => c.Categorie);
+                .HasOne(p => p.Categorie)
+                .WithMany(c => c.PointOfInterestCollection)
+                .HasForeignKey(p => p.CategorieId);
+            
+            builder.Entity<Adresse>()
+                .ToTable("Adresse")
+                .HasOne(p => p.PointOfInterest)
+                .WithOne(c=>c.Adresse);
+            
+            builder.Entity<PointOfInterest>()
+                .ToTable("PointOfInterest")
+                .HasOne(p => p.Adresse)
+                .WithOne(p=>p.PointOfInterest);
+
+            builder.Entity<Adresse>()
+                .ToTable("Adresse")
+                .HasOne(p => p.Commune)
+                .WithMany(c => c.AddresseCollection)
+                .HasForeignKey(p => p.CommuneId);
         }
     }
 }
