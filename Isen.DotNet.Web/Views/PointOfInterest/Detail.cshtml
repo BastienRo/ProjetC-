@@ -1,12 +1,15 @@
 @using Isen.DotNet.Library.Models.Implementation;
+@using Isen.DotNet.Library.Repositories.Interfaces;
 @{
     ViewData["Title"] = "PointOfInterest (détail)";
 }
-@model City
+@inject ICategorieRepository _categorieRepository;
+@inject IAdresseRepository _adresseRepository;
+@model PointOfInterest;
 
 <div class="row">
     <div class="col-md-12">
-        <h1>Home <small>/city/detail</small></h1>
+        <h1>Points d'interêts <small>/PointOfInterest/index</small></h1>
     </div>
 </div>
 <div class="row">
@@ -14,15 +17,47 @@
         <form class="form-horizontal" asp-action="Detail">
             <input type="hidden" value="@Model?.Id" asp-for="Id" />
             <div>
-                <label for="Name" class="control-label">Nom de la ville :</label>
+                <label for="Name" class="control-label">Nom du points d'intérêts :</label>
                 <input type="text" class="form-control"
-                    id="Name" placeholder="Nom de la ville"
+                    id="Name" placeholder="Nom du points d'intérêts"
                     value="@Model?.Name" asp-for="Name" />
+            </div>
+            <div>
+                <label for="Description" class="control-label">Description :</label>
+                <input type="text" class="form-control"
+                    id="Description" placeholder="Description"
+                    value="@Model?.Description" asp-for="Description" />
+            </div>
+            <div>
+                <label for="CategorieId">
+                    Catégorie : 
+                </label>
+                @Html.DropDownListFor(
+                    p => p.CategorieId,
+                    new SelectList(
+                        _categorieRepository.GetAll(), 
+                        "Id",
+                        "Name"),
+                    "<Sélectionnez une catégorie>",
+                    new { @class = "form-control" })
+            </div>
+            <div>
+                <label for="AdresseId">
+                    Adresse : 
+                </label>
+                @Html.DropDownListFor(
+                    p => p.AdresseId,
+                    new SelectList(
+                        _adresseRepository.GetAll(), 
+                        "Id",
+                        "Name"),
+                    "<Sélectionnez une adresse>",
+                    new { @class = "form-control" })
             </div>
             <br />
             <input type="submit" class="btn btn-primary" value="Valider" />
             <a class="btn btn-default" 
-                asp-controller="Point" asp-action="Index">Annuler</a>
+                asp-controller="PointOfInterest" asp-action="Index">Annuler</a>
         </form>
     </div>
 </div>

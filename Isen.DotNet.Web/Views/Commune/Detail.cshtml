@@ -3,12 +3,12 @@
 @{
     ViewData["Title"] = "Commune (détail)";
 }
-@inject ICityRepository _cityRepository;
+@inject IDepartementRepository _departementRepository;
 @model Commune;
 
 <div class="row">
     <div class="col-md-12">
-        <h1>Détail d'une ville <small>/person/detail</small></h1>
+        <h1>Détail d'une commune <small>/commune/detail</small></h1>
     </div>
 </div>
 <div class="row">
@@ -19,60 +19,45 @@
                 value="@Model?.Id" asp-for="Id" />
 
             <div>
-                <label for="FirstName" class="control-label">
-                    Prénom :
+                <label for="Name" class="control-label">
+                    Nom de la commune :
                 </label>
                 <input type="text" class="form-control"
-                    id="FirstName" placeholder="Prénom"
-                    value="@Model?.FirstName" asp-for="FirstName" />
+                    id="Name" placeholder="Nom de la commune"
+                    value="@Model?.Name" asp-for="Name" />
             </div>
 
             <div>
-                <label for="LastName" class="control-label">
-                    Prénom :
-                </label>
-                <input type="text" class="form-control"
-                    id="LastName" placeholder="Nom"
-                    value="@Model?.LastName" asp-for="LastName" />
-            </div>
-
-            <div>
-                <label for="BirthDate" class="control-label">
-                    Date de naissance :
-                </label>
-                <input type="date" class="form-control"
-                    id="BirthDate" 
-                    value="@Model?.BirthDate?.ToString("yyyy-MM-dd")" 
-                    asp-for="BirthDate" />
-            </div>
-
-            <div>
-                <label for="CityId">
-                    Ville : 
+                <label for="DepartementId">
+                    Département : 
                 </label>
                 @Html.DropDownListFor(
-                    // Champ du modèle (quelle ville faut-il sélectionner)
-                    // Le moteur Razor sait que p est une Personne
-                    // grace à @model Person
-                    p => p.CityId,
-                    // Remplissage de la liste
+                    p => p.DepartementId,
                     new SelectList(
-                        // Liste des entités qui peuplent la liste
-                        // voir @using et @inject en haut de fichier
-                        _cityRepository.GetAll(), 
-                        // Champ de clé
-                        "Id", 
-                        // Champ d'affichage
+                        _departementRepository.GetAll(), 
+                        "Id",
                         "Name"),
-                    // Item par défaut
-                    "<Sélectionnez une ville>",
-                    // Classe CSS
-                    // Le @ n'est pas celui de Razor mais celui du C#
-                    // Si on veut nommer une classe ou un champ avec un 
-                    // mot clé du langage, on le fait précéder d'un @
+                    "<Sélectionnez un département>",
                     new { @class = "form-control" })
             </div>
 
+            <div>
+                <label for="Latitude" class="control-label">
+                    Latitude :
+                </label>
+                <input type="text" class="form-control"
+                    id="Latitude" placeholder="Latitude"
+                    value="@Model?.Latitude" asp-for="Latitude" />
+            </div>
+
+            <div>
+                <label for="Longitude" class="control-label">
+                    Longitude :
+                </label>
+                <input type="text" class="form-control"
+                    id="Longitude" placeholder="Longitude"
+                    value="@Model?.Longitude" asp-for="Longitude" />
+            </div>
 
             <br />
 

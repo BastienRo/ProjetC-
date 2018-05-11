@@ -2,7 +2,7 @@
 @{
     ViewData["Title"] = "PointsInterets";
 }
-@model IEnumerable<PointOfInterest>
+@model IEnumerable<PointOfInterest>;
 
 <div class="row">
     <div class="col-md-12">
@@ -32,8 +32,8 @@
                 <td>@point.Id</td>
                 <td>@point.Name</td>
                 <td>@point.Description</td>
-                <td>@point.Categorie</td>
-                <td>@point.Adresse</td>
+                <td>@point.Categorie?.Name</td>
+                <td>@point.Adresse?.Name</td>
                 <td>
                     <a class="btn btn-default" asp-controller="PointOfInterest" asp-action="Detail" asp-route-id="@point.Id">Editer</a>
                     &nbsp;

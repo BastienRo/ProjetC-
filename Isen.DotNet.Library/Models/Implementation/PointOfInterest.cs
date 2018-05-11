@@ -7,7 +7,7 @@ namespace Isen.DotNet.Library.Models.Implementation
     {
         public string Nom { get; set; }
         public string Description { get; set; }
-        public CategoriePoint Categorie { get; set; }
+        public Categorie Categorie { get; set; }
         public Adresse Adresse { get; set; }
         
         public int? AdresseId { get; set; }

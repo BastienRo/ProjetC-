@@ -2,7 +2,7 @@
 
 namespace Isen.DotNet.Library.Repositories.Interfaces
 {
-    public interface ICategoriePointRepository : IBaseRepository<CategoriePoint>
+    public interface ICategorieRepository : IBaseRepository<Categorie>
     {
         
     }

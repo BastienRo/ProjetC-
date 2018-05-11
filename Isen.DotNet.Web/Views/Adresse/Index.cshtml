@@ -1,0 +1,50 @@
+﻿@using Isen.DotNet.Library.Models.Implementation;
+@{
+    ViewData["Title"] = "Adresse";
+}
+@model IEnumerable<Adresse>;
+
+<div class="row">
+    <div class="col-md-12">
+        <h1>Adresses <small>/Adresses/index</small></h1>
+    </div>
+</div>
+<div class="row">
+    <a class="btn btn-default" 
+        asp-controller="Adresse" asp-action="Detail">Ajouter une adresse...</a>
+</div>
+<div class="row">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nom</th>
+                <th>Ligne Txt</th>
+                <th>Code Postal</th>
+                <th>Commune</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var adress in Model)
+            {
+            <tr>
+                <td>@adress.Id</td>
+                <td>@adress.Name</td>
+                <td>@adress.LigneTxt</td>
+                <td>@adress.CodePostal</td>
+                <td>@adress.Commune?.Name</td>
+                <td>@adress.Latitude</td>
+                <td>@adress.Longitude</td>
+                <td>
+                    <a class="btn btn-default" asp-controller="adress" asp-action="Detail" asp-route-id="@adress.Id">Editer</a>
+                    &nbsp;
+                    <a class="btn btn-danger" asp-controller="adress" asp-action="Delete" asp-route-id="@adress.Id">Supprimer</a>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>

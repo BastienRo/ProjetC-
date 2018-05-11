@@ -13,9 +13,10 @@ namespace Isen.DotNet.Library.Data
         private readonly ILogger<SeedData> _logger;
         private readonly ICityRepository _cityRepository;
         private readonly IPersonRepository _personRepository;
+        private readonly IDepartementRepository _departementRepository;
         private readonly ICommuneRepository _communeRepository;
         private readonly IPointOfInterestRepository _pointsRepository;
-        private readonly ICategoriePointRepository _categorieRepository;
+        private readonly ICategorieRepository _categorieRepository;
         private readonly IAdresseRepository _adresseRepository;
 
         public SeedData(
@@ -23,9 +24,10 @@ namespace Isen.DotNet.Library.Data
             ILogger<SeedData> logger,
             ICityRepository cityRepository,
             IPersonRepository personRepository,
+            IDepartementRepository departementRepository,
             ICommuneRepository communeRepository,
             IAdresseRepository adresseRepository,
-            ICategoriePointRepository categorieRepository,
+            ICategorieRepository categorieRepository,
             IPointOfInterestRepository pointsRepository)
         {
             _context = context;
@@ -36,6 +38,7 @@ namespace Isen.DotNet.Library.Data
             _adresseRepository = adresseRepository;
             _categorieRepository = categorieRepository;
             _pointsRepository = pointsRepository;
+            _departementRepository = departementRepository;
         }
 
         public void DropDatabase()
@@ -106,6 +109,24 @@ namespace Isen.DotNet.Library.Data
             _logger.LogWarning("Added persons");
         }
 
+        public void AddDepartements()
+        {
+            if (_departementRepository.GetAll().Any()) return;
+            _logger.LogWarning("Adding departements");
+
+            var departements = new List<Departement>
+            {
+                new Departement { 
+                    Name = "Var",
+                    CodeDepartement = 83
+                    }
+            };
+            _departementRepository.UpdateRange(departements);
+            _departementRepository.Save();
+
+            _logger.LogWarning("Added departements");
+        }
+
         public void AddCommunes()
         {
             if (_communeRepository.GetAll().Any()) return;
@@ -115,6 +136,7 @@ namespace Isen.DotNet.Library.Data
             {
                 new Commune { 
                     Name = "Toulon",
+                    Departement = _departementRepository.Single("Var"),
                     Latitude = 16,
                     Longitude = 12
                     }
@@ -152,9 +174,9 @@ namespace Isen.DotNet.Library.Data
             if (_categorieRepository.GetAll().Any()) return;
             _logger.LogWarning("Adding categories");
 
-            var categories = new List<CategoriePoint>
+            var categories = new List<Categorie>
             {
-                new CategoriePoint { 
+                new Categorie { 
                     Name = "Nature",
                     Description = "Respirer l'air frais",
                     }

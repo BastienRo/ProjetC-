@@ -23,7 +23,7 @@ namespace Isen.DotNet.Library.Repositories.DbContext
         
         public override IQueryable<PointOfInterest> Includes(
             IQueryable<PointOfInterest> queryable)
-            => queryable.Include(c => c.Adresse).Include(c => c.Adresse.Commune).Include(c=>c.Adresse.Commune.Departement);
+            => queryable.Include(c => c.Adresse).Include(c => c.Adresse.Commune).Include(c=>c.Adresse.Commune.Departement).Include(c => c.Categorie);
 
     }
 }

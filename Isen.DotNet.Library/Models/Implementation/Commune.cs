@@ -5,9 +5,8 @@ namespace Isen.DotNet.Library.Models.Implementation
 {
     public class Commune : BaseModel
     {
-        public string Nom  { get;set;}
         public Departement Departement { get; set; }
-        public List<Adresse> AddresseCollection { get; set; }
+        public List<Adresse> AdresseCollection { get; set; }
         public float Latitude  { get;set;}
         public float Longitude  { get;set;}
         
@@ -16,7 +15,7 @@ namespace Isen.DotNet.Library.Models.Implementation
         public override dynamic ToDynamic()
         {
             var response = base.ToDynamic();
-            response.nom = Nom;
+            response.departement = Departement;
             response.latitude = Latitude;
             response.longitude = Longitude;
             return response;

@@ -7,18 +7,18 @@ using Microsoft.Extensions.Logging;
 
 namespace Isen.DotNet.Library.Repositories.DbContext
 {
-    public class DbContextCategoriePointRepository :
-        BaseDbContextRepository<CategoriePoint>, ICategoriePointRepository
+    public class DbContextCategorieRepository :
+        BaseDbContextRepository<Categorie>, ICategorieRepository
     {
-        public DbContextCategoriePointRepository(
-            ILogger<DbContextCategoriePointRepository> logger,
+        public DbContextCategorieRepository(
+            ILogger<DbContextCategorieRepository> logger,
             ApplicationDbContext context)
             : base(logger, context)
         {
         }
         
-        public override IQueryable<CategoriePoint> Includes(
-            IQueryable<CategoriePoint> queryable)
+        public override IQueryable<Categorie> Includes(
+            IQueryable<Categorie> queryable)
             => queryable.Include(c => c.PointOfInterestCollection);
     }
 }
