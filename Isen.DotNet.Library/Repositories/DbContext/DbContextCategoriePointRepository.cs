@@ -16,5 +16,9 @@ namespace Isen.DotNet.Library.Repositories.DbContext
             : base(logger, context)
         {
         }
+        
+        public override IQueryable<CategoriePoint> Includes(
+            IQueryable<CategoriePoint> queryable)
+            => queryable.Include(c => c.PointOfInterestCollection);
     }
 }

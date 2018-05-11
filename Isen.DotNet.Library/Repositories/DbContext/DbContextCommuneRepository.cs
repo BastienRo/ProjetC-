@@ -16,5 +16,9 @@ namespace Isen.DotNet.Library.Repositories.DbContext
             : base(logger, context)
         {
         }
+        
+        public override IQueryable<Commune> Includes(
+            IQueryable<Commune> queryable)
+            => queryable.Include(c => c.AddresseCollection);
     }
 }
