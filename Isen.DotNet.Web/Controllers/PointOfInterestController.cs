@@ -12,11 +12,11 @@ using Microsoft.Extensions.Logging;
 
 namespace Isen.DotNet.Web.Controllers
 {
-    public class PointOfInterestController : BaseController<City>
+    public class PointOfInterestController : BaseController<PointOfInterest>
     {
         public PointOfInterestController(
             ILogger<PointOfInterestController> logger,
-            ICityRepository repository)
+            IPointOfInterestRepository repository)
             : base(logger, repository)
         {
         }
