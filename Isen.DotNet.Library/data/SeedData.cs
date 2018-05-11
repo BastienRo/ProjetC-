@@ -22,12 +22,20 @@ namespace Isen.DotNet.Library.Data
             ApplicationDbContext context,
             ILogger<SeedData> logger,
             ICityRepository cityRepository,
-            IPersonRepository personRepository)
+            IPersonRepository personRepository,
+            ICommuneRepository communeRepository,
+            IAdresseRepository adresseRepository,
+            ICategoriePointRepository categorieRepository,
+            IPointOfInterestRepository pointsRepository)
         {
             _context = context;
             _logger = logger;
             _cityRepository = cityRepository;
             _personRepository = personRepository;
+            _communeRepository = communeRepository;
+            _adresseRepository = adresseRepository;
+            _categorieRepository = categorieRepository;
+            _pointsRepository = pointsRepository;
         }
 
         public void DropDatabase()
