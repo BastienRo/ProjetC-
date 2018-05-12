@@ -152,14 +152,7 @@ namespace Isen.DotNet.Library.Data
             _logger.LogWarning("Adding adresses");
 
             var adresses = new List<Adresse>{};
-            /*string json = File.ReadAllText("../Isen.DotNet.Library/json/adresses.json");
-            adresses = JsonConvert.DeserializeObject<List<Adresse>>(json);
-
-            foreach (var item in adresses)
-            {
-                item.Commune = _communeRepository.Single(item.NameCommune);
-            }*/
-
+            
             _adresseRepository.UpdateRange(adresses);
             _adresseRepository.Save();
 
