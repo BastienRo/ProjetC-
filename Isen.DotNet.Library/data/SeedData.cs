@@ -1,9 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.IO;
 using Isen.DotNet.Library.Models.Implementation;
 using Isen.DotNet.Library.Repositories.Interfaces;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 
 namespace Isen.DotNet.Library.Data
 {
@@ -114,13 +116,10 @@ namespace Isen.DotNet.Library.Data
             if (_departementRepository.GetAll().Any()) return;
             _logger.LogWarning("Adding departements");
 
-            var departements = new List<Departement>
-            {
-                new Departement { 
-                    Name = "Var",
-                    CodeDepartement = 83
-                    }
-            };
+            var departements = new List<Departement>{};
+            string json = File.ReadAllText("../Isen.DotNet.Library/json/departements.json");
+            departements = JsonConvert.DeserializeObject<List<Departement>>(json);
+            
             _departementRepository.UpdateRange(departements);
             _departementRepository.Save();
 
@@ -132,15 +131,10 @@ namespace Isen.DotNet.Library.Data
             if (_communeRepository.GetAll().Any()) return;
             _logger.LogWarning("Adding communes");
 
-            var communes = new List<Commune>
-            {
-                new Commune { 
-                    Name = "Toulon",
-                    Departement = _departementRepository.Single("Var"),
-                    Latitude = 16,
-                    Longitude = 12
-                    }
-            };
+            var communes = new List<Commune>{};
+            string json = File.ReadAllText("../Isen.DotNet.Library/json/communes.json");
+            communes = JsonConvert.DeserializeObject<List<Commune>>(json);
+
             _communeRepository.UpdateRange(communes);
             _communeRepository.Save();
 

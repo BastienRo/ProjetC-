@@ -1,0 +1,32 @@
+[
+    {
+      "Name": "Alpes-de-Haute-Provence",
+      "CodeDepartement": "04",
+      "CodeDepartementRegion": "93"
+    },
+    {
+      "Name": "Hautes-Alpes",
+      "CodeDepartement": "05",
+      "CodeDepartementRegion": "93"
+    },
+    {
+      "Name": "Alpes-Maritimes",
+      "CodeDepartement": "06",
+      "CodeDepartementRegion": "93"
+    },
+    {
+      "Name": "Bouches-du-Rhône",
+      "CodeDepartement": "13",
+      "CodeDepartementRegion": "93"
+    },
+    {
+      "Name": "Var",
+      "CodeDepartement": "83",
+      "CodeDepartementRegion": "93"
+    },
+    {
+      "Name": "Vaucluse",
+      "CodeDepartement": "84",
+      "CodeDepartementRegion": "93"
+    }
+  ]

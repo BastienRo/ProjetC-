@@ -1,0 +1,1814 @@
+[
+    {
+      "Name": "Althen-des-Paluds",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.954991515151516,
+          44.01351621212122
+        ]
+      },
+      "code": "84001"
+    },
+    {
+      "Name": "Ansouis",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.4639592233009715,
+          43.735682815533984
+        ]
+      },
+      "code": "84002"
+    },
+    {
+      "Name": "Apt",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.3815902293578,
+          43.878009495412826
+        ]
+      },
+      "code": "84003"
+    },
+    {
+      "Name": "Aubignan",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.035579124999999,
+          44.09806537499999
+        ]
+      },
+      "code": "84004"
+    },
+    {
+      "Name": "Aurel",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.407757019230768,
+          44.14447778846156
+        ]
+      },
+      "code": "84005"
+    },
+    {
+      "Name": "Auribeau",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.4446111111111115,
+          43.83273180555554
+        ]
+      },
+      "code": "84006"
+    },
+    {
+      "Name": "Avignon",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.846351492537313,
+          43.94172656716419
+        ]
+      },
+      "code": "84007"
+    },
+    {
+      "Name": "Le Barroux",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.0953444736842135,
+          44.159362828947394
+        ]
+      },
+      "code": "84008"
+    },
+    {
+      "Name": "La Bastide-des-Jourdans",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.638086406926405,
+          43.7955070995671
+        ]
+      },
+      "code": "84009"
+    },
+    {
+      "Name": "La Bastidonne",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.580858956521739,
+          43.69302817391304
+        ]
+      },
+      "code": "84010"
+    },
+    {
+      "Name": "Le Beaucet",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.132797499999999,
+          43.9744146
+        ]
+      },
+      "code": "84011"
+    },
+    {
+      "Name": "Beaumes-de-Venise",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.02942435483871,
+          44.12605282258068
+        ]
+      },
+      "code": "84012"
+    },
+    {
+      "Name": "Beaumettes",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.205483953488373,
+          43.86239744186046
+        ]
+      },
+      "code": "84013"
+    },
+    {
+      "Name": "Beaumont-de-Pertuis",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.695205448717947,
+          43.747714807692304
+        ]
+      },
+      "code": "84014"
+    },
+    {
+      "Name": "Beaumont-du-Ventoux",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.21266663265306,
+          44.1863875510204
+        ]
+      },
+      "code": "84015"
+    },
+    {
+      "Name": "Bédarrides",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.909383333333335,
+          44.04647416666668
+        ]
+      },
+      "code": "84016"
+    },
+    {
+      "Name": "Bédoin",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.242789794871797,
+          44.13649430769231
+        ]
+      },
+      "code": "84017"
+    },
+    {
+      "Name": "Blauvac",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.250673947368424,
+          44.0341379605263
+        ]
+      },
+      "code": "84018"
+    },
+    {
+      "Name": "Bollène",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.749678965517241,
+          44.2902843965517
+        ]
+      },
+      "code": "84019"
+    },
+    {
+      "Name": "Bonnieux",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.323984,
+          43.838383061224505
+        ]
+      },
+      "code": "84020"
+    },
+    {
+      "Name": "Brantes",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.331291911764704,
+          44.18864294117644
+        ]
+      },
+      "code": "84021"
+    },
+    {
+      "Name": "Buisson",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.993888507462686,
+          44.27331925373133
+        ]
+      },
+      "code": "84022"
+    },
+    {
+      "Name": "Buoux",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.372869941176471,
+          43.82183870588237
+        ]
+      },
+      "code": "84023"
+    },
+    {
+      "Name": "Cabrières-d'Aigues",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.486456826923076,
+          43.78921115384616
+        ]
+      },
+      "code": "84024"
+    },
+    {
+      "Name": "Cabrières-d'Avignon",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.153166117647059,
+          43.90074670588235
+        ]
+      },
+      "code": "84025"
+    },
+    {
+      "Name": "Cadenet",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.387573977272728,
+          43.735932386363636
+        ]
+      },
+      "code": "84026"
+    },
+    {
+      "Name": "Caderousse",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.7480106837606835,
+          44.108787777777785
+        ]
+      },
+      "code": "84027"
+    },
+    {
+      "Name": "Cairanne",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.9413100000000005,
+          44.235014591836745
+        ]
+      },
+      "code": "84028"
+    },
+    {
+      "Name": "Camaret-sur-Aigues",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.886092857142858,
+          44.16064749999999
+        ]
+      },
+      "code": "84029"
+    },
+    {
+      "Name": "Caromb",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.1125254216867475,
+          44.1157573493976
+        ]
+      },
+      "code": "84030"
+    },
+    {
+      "Name": "Carpentras",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.06115447368421,
+          44.06276438596492
+        ]
+      },
+      "code": "84031"
+    },
+    {
+      "Name": "Caseneuve",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.486052901234569,
+          43.88664623456791
+        ]
+      },
+      "code": "84032"
+    },
+    {
+      "Name": "Castellet",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.485423766233766,
+          43.84045662337662
+        ]
+      },
+      "code": "84033"
+    },
+    {
+      "Name": "Caumont-sur-Durance",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.951177777777779,
+          43.89975333333333
+        ]
+      },
+      "code": "84034"
+    },
+    {
+      "Name": "Cavaillon",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.051377934782609,
+          43.838994565217384
+        ]
+      },
+      "code": "84035"
+    },
+    {
+      "Name": "Châteauneuf-de-Gadagne",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.941852410714285,
+          43.9313704464286
+        ]
+      },
+      "code": "84036"
+    },
+    {
+      "Name": "Châteauneuf-du-Pape",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.824727058823529,
+          44.065246470588235
+        ]
+      },
+      "code": "84037"
+    },
+    {
+      "Name": "Cheval-Blanc",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.117928411214955,
+          43.79787794392524
+        ]
+      },
+      "code": "84038"
+    },
+    {
+      "Name": "Courthézon",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.888756062992125,
+          44.09120708661419
+        ]
+      },
+      "code": "84039"
+    },
+    {
+      "Name": "Crestet",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.090367272727273,
+          44.21102371900825
+        ]
+      },
+      "code": "84040"
+    },
+    {
+      "Name": "Crillon-le-Brave",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.1468344186046515,
+          44.119760930232545
+        ]
+      },
+      "code": "84041"
+    },
+    {
+      "Name": "Cucuron",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.44569648648649,
+          43.775833459459434
+        ]
+      },
+      "code": "84042"
+    },
+    {
+      "Name": "Entraigues-sur-la-Sorgue",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.9288436250000025,
+          43.99589075000002
+        ]
+      },
+      "code": "84043"
+    },
+    {
+      "Name": "Entrechaux",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.136251578947368,
+          44.22450010526317
+        ]
+      },
+      "code": "84044"
+    },
+    {
+      "Name": "Faucon",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.1404263529411764,
+          44.25616882352941
+        ]
+      },
+      "code": "84045"
+    },
+    {
+      "Name": "Flassan",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.265107604166668,
+          44.10190854166667
+        ]
+      },
+      "code": "84046"
+    },
+    {
+      "Name": "Gargas",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.345229200000001,
+          43.89942830000001
+        ]
+      },
+      "code": "84047"
+    },
+    {
+      "Name": "Gignac",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.527529393939393,
+          43.925546212121205
+        ]
+      },
+      "code": "84048"
+    },
+    {
+      "Name": "Gigondas",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.016429523809527,
+          44.170189404761885
+        ]
+      },
+      "code": "84049"
+    },
+    {
+      "Name": "Gordes",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.2018008053691265,
+          43.90775382550334
+        ]
+      },
+      "code": "84050"
+    },
+    {
+      "Name": "Goult",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.245860706521738,
+          43.871645380434764
+        ]
+      },
+      "code": "84051"
+    },
+    {
+      "Name": "Grambois",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.602159171974524,
+          43.76572929936309
+        ]
+      },
+      "code": "84052"
+    },
+    {
+      "Name": "Grillon",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.930324390243904,
+          44.39740085365853
+        ]
+      },
+      "code": "84053"
+    },
+    {
+      "Name": "L'Isle-sur-la-Sorgue",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.059480165745854,
+          43.92289392265194
+        ]
+      },
+      "code": "84054"
+    },
+    {
+      "Name": "Jonquerettes",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.94328,
+          43.948497894736846
+        ]
+      },
+      "code": "84055"
+    },
+    {
+      "Name": "Jonquières",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.912192018348624,
+          44.12720522935782
+        ]
+      },
+      "code": "84056"
+    },
+    {
+      "Name": "Joucas",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.250542777777778,
+          43.92791972222222
+        ]
+      },
+      "code": "84057"
+    },
+    {
+      "Name": "Lacoste",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.269132686567165,
+          43.830772388059714
+        ]
+      },
+      "code": "84058"
+    },
+    {
+      "Name": "Lafare",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.0526156896551715,
+          44.15451086206895
+        ]
+      },
+      "code": "84059"
+    },
+    {
+      "Name": "Lagarde-d'Apt",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.482437411764708,
+          43.98468941176471
+        ]
+      },
+      "code": "84060"
+    },
+    {
+      "Name": "Lagarde-Paréol",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.854380655737706,
+          44.22652426229509
+        ]
+      },
+      "code": "84061"
+    },
+    {
+      "Name": "Lagnes",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.122111023622049,
+          43.90515094488189
+        ]
+      },
+      "code": "84062"
+    },
+    {
+      "Name": "Lamotte-du-Rhône",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.684394528301888,
+          44.281706415094334
+        ]
+      },
+      "code": "84063"
+    },
+    {
+      "Name": "Lapalud",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.686487833333333,
+          44.304899666666685
+        ]
+      },
+      "code": "84064"
+    },
+    {
+      "Name": "Lauris",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.307429374999999,
+          43.765154375
+        ]
+      },
+      "code": "84065"
+    },
+    {
+      "Name": "Lioux",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.297921219512196,
+          43.96946260162601
+        ]
+      },
+      "code": "84066"
+    },
+    {
+      "Name": "Loriol-du-Comtat",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.00419403508772,
+          44.07560701754385
+        ]
+      },
+      "code": "84067"
+    },
+    {
+      "Name": "Lourmarin",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.3712229113924055,
+          43.78204873417722
+        ]
+      },
+      "code": "84068"
+    },
+    {
+      "Name": "Malaucène",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.149993464052289,
+          44.19050042483663
+        ]
+      },
+      "code": "84069"
+    },
+    {
+      "Name": "Malemort-du-Comtat",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.165491124999998,
+          44.01849800000001
+        ]
+      },
+      "code": "84070"
+    },
+    {
+      "Name": "Maubec",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.136406578947369,
+          43.83933552631579
+        ]
+      },
+      "code": "84071"
+    },
+    {
+      "Name": "Mazan",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.137097999999999,
+          44.05628247999998
+        ]
+      },
+      "code": "84072"
+    },
+    {
+      "Name": "Ménerbes",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.2222989473684205,
+          43.83357934210526
+        ]
+      },
+      "code": "84073"
+    },
+    {
+      "Name": "Mérindol",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.198750000000001,
+          43.764484509803914
+        ]
+      },
+      "code": "84074"
+    },
+    {
+      "Name": "Méthamis",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.253886078431371,
+          44.01892816993464
+        ]
+      },
+      "code": "84075"
+    },
+    {
+      "Name": "Mirabeau",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.64364515151515,
+          43.70275191919192
+        ]
+      },
+      "code": "84076"
+    },
+    {
+      "Name": "Modène",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.1278892857142875,
+          44.11009517857144
+        ]
+      },
+      "code": "84077"
+    },
+    {
+      "Name": "Mondragon",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.73164512195122,
+          44.243997479674796
+        ]
+      },
+      "code": "84078"
+    },
+    {
+      "Name": "Monieux",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.343751025641026,
+          44.0620339102564
+        ]
+      },
+      "code": "84079"
+    },
+    {
+      "Name": "Monteux",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.975345,
+          44.03100019230771
+        ]
+      },
+      "code": "84080"
+    },
+    {
+      "Name": "Morières-lès-Avignon",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.913703859649122,
+          43.93221578947369
+        ]
+      },
+      "code": "84081"
+    },
+    {
+      "Name": "Mormoiron",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.188820978260869,
+          44.07003673913043
+        ]
+      },
+      "code": "84082"
+    },
+    {
+      "Name": "Mornas",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.739599508196725,
+          44.197766065573774
+        ]
+      },
+      "code": "84083"
+    },
+    {
+      "Name": "La Motte-d'Aigues",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.5271459589041125,
+          43.78420643835616
+        ]
+      },
+      "code": "84084"
+    },
+    {
+      "Name": "Murs",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.244171666666666,
+          43.96218561728395
+        ]
+      },
+      "code": "84085"
+    },
+    {
+      "Name": "Oppède",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.171291282051281,
+          43.82597128205128
+        ]
+      },
+      "code": "84086"
+    },
+    {
+      "Name": "Orange",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.799798651162791,
+          44.12312097674418
+        ]
+      },
+      "code": "84087"
+    },
+    {
+      "Name": "Pernes-les-Fontaines",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.052836491228067,
+          43.98574093567251
+        ]
+      },
+      "code": "84088"
+    },
+    {
+      "Name": "Pertuis",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.526239444444445,
+          43.69495354166669
+        ]
+      },
+      "code": "84089"
+    },
+    {
+      "Name": "Peypin-d'Aigues",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.556986397515528,
+          43.79445962732918
+        ]
+      },
+      "code": "84090"
+    },
+    {
+      "Name": "Piolenc",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.756710714285716,
+          44.1768162857143
+        ]
+      },
+      "code": "84091"
+    },
+    {
+      "Name": "Le Pontet",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.857311500000001,
+          43.96612699999999
+        ]
+      },
+      "code": "84092"
+    },
+    {
+      "Name": "Puget",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.249468809523812,
+          43.77420976190477
+        ]
+      },
+      "code": "84093"
+    },
+    {
+      "Name": "Puyméras",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.131193750000001,
+          44.285579619565226
+        ]
+      },
+      "code": "84094"
+    },
+    {
+      "Name": "Puyvert",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.34133652173913,
+          43.750611739130434
+        ]
+      },
+      "code": "84095"
+    },
+    {
+      "Name": "Rasteau",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.984066947368422,
+          44.23910957894738
+        ]
+      },
+      "code": "84096"
+    },
+    {
+      "Name": "Richerenches",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.902628020833335,
+          44.3591903125
+        ]
+      },
+      "code": "84097"
+    },
+    {
+      "Name": "Roaix",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.01126813559322,
+          44.25335305084746
+        ]
+      },
+      "code": "84098"
+    },
+    {
+      "Name": "Robion",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.1148587654321,
+          43.84453098765434
+        ]
+      },
+      "code": "84099"
+    },
+    {
+      "Name": "La Roque-Alric",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.068029836065572,
+          44.14433770491803
+        ]
+      },
+      "code": "84100"
+    },
+    {
+      "Name": "La Roque-sur-Pernes",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.099222000000001,
+          43.974041357142845
+        ]
+      },
+      "code": "84101"
+    },
+    {
+      "Name": "Roussillon",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.2893911904761906,
+          43.89144726190476
+        ]
+      },
+      "code": "84102"
+    },
+    {
+      "Name": "Rustrel",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.471760909090909,
+          43.921052424242426
+        ]
+      },
+      "code": "84103"
+    },
+    {
+      "Name": "Sablet",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.010678677685951,
+          44.189121404958684
+        ]
+      },
+      "code": "84104"
+    },
+    {
+      "Name": "Saignon",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.440677062937064,
+          43.85930489510486
+        ]
+      },
+      "code": "84105"
+    },
+    {
+      "Name": "Sainte-Cécile-les-Vignes",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.890769351851851,
+          44.23831175925928
+        ]
+      },
+      "code": "84106"
+    },
+    {
+      "Name": "Saint-Christol",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.493951642857141,
+          44.03029478571428
+        ]
+      },
+      "code": "84107"
+    },
+    {
+      "Name": "Saint-Didier",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.110610204081633,
+          44.00710469387755
+        ]
+      },
+      "code": "84108"
+    },
+    {
+      "Name": "Saint-Hippolyte-le-Graveyron",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.0776525,
+          44.1233935
+        ]
+      },
+      "code": "84109"
+    },
+    {
+      "Name": "Saint-Léger-du-Ventoux",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.2725568478260865,
+          44.20550326086957
+        ]
+      },
+      "code": "84110"
+    },
+    {
+      "Name": "Saint-Marcellin-lès-Vaison",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.1026504687499985,
+          44.23878781250001
+        ]
+      },
+      "code": "84111"
+    },
+    {
+      "Name": "Saint-Martin-de-Castillon",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.509753507853407,
+          43.861290157068055
+        ]
+      },
+      "code": "84112"
+    },
+    {
+      "Name": "Saint-Martin-de-la-Brasque",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.539035909090911,
+          43.76703345454546
+        ]
+      },
+      "code": "84113"
+    },
+    {
+      "Name": "Saint-Pantaléon",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.215936,
+          43.87823240000001
+        ]
+      },
+      "code": "84114"
+    },
+    {
+      "Name": "Saint-Pierre-de-Vassols",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.1466696296296295,
+          44.09348518518519
+        ]
+      },
+      "code": "84115"
+    },
+    {
+      "Name": "Saint-Romain-en-Viennois",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.100633684210527,
+          44.26444859649122
+        ]
+      },
+      "code": "84116"
+    },
+    {
+      "Name": "Saint-Roman-de-Malegarde",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.96298734939759,
+          44.2623904819277
+        ]
+      },
+      "code": "84117"
+    },
+    {
+      "Name": "Saint-Saturnin-lès-Apt",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.357853293413172,
+          43.950167065868264
+        ]
+      },
+      "code": "84118"
+    },
+    {
+      "Name": "Saint-Saturnin-lès-Avignon",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.945495909090908,
+          43.965498409090905
+        ]
+      },
+      "code": "84119"
+    },
+    {
+      "Name": "Saint-Trinit",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.476162125000002,
+          44.09579800000001
+        ]
+      },
+      "code": "84120"
+    },
+    {
+      "Name": "Sannes",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.482381923076924,
+          43.761360961538465
+        ]
+      },
+      "code": "84121"
+    },
+    {
+      "Name": "Sarrians",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.953013478260868,
+          44.10680052173913
+        ]
+      },
+      "code": "84122"
+    },
+    {
+      "Name": "Sault",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.386049242424246,
+          44.06925897727269
+        ]
+      },
+      "code": "84123"
+    },
+    {
+      "Name": "Saumane-de-Vaucluse",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.113266610169492,
+          43.93740813559323
+        ]
+      },
+      "code": "84124"
+    },
+    {
+      "Name": "Savoillan",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.3712929411764705,
+          44.17810455882355
+        ]
+      },
+      "code": "84125"
+    },
+    {
+      "Name": "Séguret",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.034757407407406,
+          44.21554506172838
+        ]
+      },
+      "code": "84126"
+    },
+    {
+      "Name": "Sérignan-du-Comtat",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.844927444444445,
+          44.19576044444446
+        ]
+      },
+      "code": "84127"
+    },
+    {
+      "Name": "Sivergues",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.415138235294121,
+          43.8229250980392
+        ]
+      },
+      "code": "84128"
+    },
+    {
+      "Name": "Sorgues",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.867352162162161,
+          44.021705135135136
+        ]
+      },
+      "code": "84129"
+    },
+    {
+      "Name": "Suzette",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.06273379310345,
+          44.17026249999999
+        ]
+      },
+      "code": "84130"
+    },
+    {
+      "Name": "Taillades",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.09657675,
+          43.833949
+        ]
+      },
+      "code": "84131"
+    },
+    {
+      "Name": "Le Thor",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.993552555555554,
+          43.934592055555555
+        ]
+      },
+      "code": "84132"
+    },
+    {
+      "Name": "La Tour-d'Aigues",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.573555643564355,
+          43.70921589108909
+        ]
+      },
+      "code": "84133"
+    },
+    {
+      "Name": "Travaillan",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.906853584905661,
+          44.19071641509434
+        ]
+      },
+      "code": "84134"
+    },
+    {
+      "Name": "Uchaux",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.800263369565218,
+          44.211079673913034
+        ]
+      },
+      "code": "84135"
+    },
+    {
+      "Name": "Vacqueyras",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.981235529411764,
+          44.14481694117649
+        ]
+      },
+      "code": "84136"
+    },
+    {
+      "Name": "Vaison-la-Romaine",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.0596307109004774,
+          44.24643289099526
+        ]
+      },
+      "code": "84137"
+    },
+    {
+      "Name": "Valréas",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.003522565217389,
+          44.3757635652174
+        ]
+      },
+      "code": "84138"
+    },
+    {
+      "Name": "Fontaine-de-Vaucluse",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.126401764705881,
+          43.91849294117649
+        ]
+      },
+      "code": "84139"
+    },
+    {
+      "Name": "Vaugines",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.406552089552238,
+          43.772551716417894
+        ]
+      },
+      "code": "84140"
+    },
+    {
+      "Name": "Vedène",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.911596666666667,
+          43.97140666666667
+        ]
+      },
+      "code": "84141"
+    },
+    {
+      "Name": "Velleron",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.017030837988826,
+          43.96212318435754
+        ]
+      },
+      "code": "84142"
+    },
+    {
+      "Name": "Venasque",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.170245254237292,
+          43.98483090395481
+        ]
+      },
+      "code": "84143"
+    },
+    {
+      "Name": "Viens",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.551635179487179,
+          43.901373589743606
+        ]
+      },
+      "code": "84144"
+    },
+    {
+      "Name": "Villars",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.433565619047621,
+          43.95103999999999
+        ]
+      },
+      "code": "84145"
+    },
+    {
+      "Name": "Villedieu",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.050461428571428,
+          44.2853107142857
+        ]
+      },
+      "code": "84146"
+    },
+    {
+      "Name": "Villelaure",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.437893870967742,
+          43.713243118279564
+        ]
+      },
+      "code": "84147"
+    },
+    {
+      "Name": "Villes-sur-Auzon",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.261766896551724,
+          44.06784045977012
+        ]
+      },
+      "code": "84148"
+    },
+    {
+      "Name": "Violès",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.949993787878788,
+          44.1743027272727
+        ]
+      },
+      "code": "84149"
+    },
+    {
+      "Name": "Visan",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          4.960944117647061,
+          44.32378500000001
+        ]
+      },
+      "code": "84150"
+    },
+    {
+      "Name": "Vitrolles-en-Lubéron",
+      "codeDepartement": "84",
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          5.605553910891092,
+          43.809312079207935
+        ]
+      },
+      "code": "84151"
+    }
+  ]
