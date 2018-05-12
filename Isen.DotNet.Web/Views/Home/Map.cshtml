@@ -9,16 +9,16 @@
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
             #map {
-                height: 400px;
+                height: 750px;
+                width: 1000px;
             }
             /* Optional: Makes the sample page fill the window. */
             html, body {
                 height: 100%;
-                margin: 0;
+                margin: 30px;
                 padding: 0;
             }
         </style>
-        <br/>
         <div class="row">
             <div id="map"></div>
             <script>
@@ -28,7 +28,33 @@
                         center: {lat: 48, lng: 2.0},
                         zoom: 8
                     });
-                }
+
+                    function getLocation() {
+                        $.ajax({
+                            type: "GET",
+                            url: "http://localhost:5000/api/Poi/all",
+                            dataType: "jsonp",
+                            succses: function(json) {
+                                $.each(json,
+                                    function(i, entry) {
+                                        PlotMarker(entry.location.latitude, entry.location.longitude);
+                                    });
+                            },
+                            error: function(err) {
+                                console.log(err);
+                            }
+                        });
+                        }
+
+                    function PlotMarker(latitude,longitude) {
+                            var marker = new google.maps.Marker({
+                                position: new google.maps.LatLng(latitude,longitude),
+                                map: map
+                            });
+                        markerLocation.push(marker);
+                    }
+
+                    }
             </script>
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYcNDzmppbfOx3Q12i6EhiZlHz_VWCzpU&callback=initMap"
                     async defer></script>

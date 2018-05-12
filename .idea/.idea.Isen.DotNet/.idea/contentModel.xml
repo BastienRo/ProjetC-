@@ -15,7 +15,11 @@
         <e p="Hello.cs" t="Include" />
         <e p="Isen.DotNet.Library.csproj" t="IncludeRecursive" />
         <e p="json" t="Include">
-          <e p="departement.json" t="Include" />
+          <e p="adresses.json" t="Include" />
+          <e p="categories.json" t="Include" />
+          <e p="communes.json" t="Include" />
+          <e p="departements.json" t="Include" />
+          <e p="pointsofinterests.json" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="Base" t="Include">
@@ -93,6 +97,7 @@
           <e p="DepartementController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
           <e p="PersonController.cs" t="Include" />
+          <e p="PoiApiController.cs" t="Include" />
           <e p="PointOfInterestController.cs" t="Include" />
         </e>
         <e p="Isen.DotNet.Web.csproj" t="IncludeRecursive" />
