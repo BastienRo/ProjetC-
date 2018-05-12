@@ -29,6 +29,12 @@ namespace Isen.DotNet.Web.Controllers
             return View();
         }
 
+        public IActionResult Map()
+        {
+            ViewData["Message"] = "Map.";
+            
+            return View();
+        }
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
