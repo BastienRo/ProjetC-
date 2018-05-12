@@ -173,13 +173,10 @@ namespace Isen.DotNet.Library.Data
             if (_categorieRepository.GetAll().Any()) return;
             _logger.LogWarning("Adding categories");
 
-            var categories = new List<Categorie>
-            {
-                new Categorie { 
-                    Name = "Nature",
-                    Description = "Respirer l'air frais",
-                    }
-            };
+            var categories = new List<Categorie>{};
+            string json = File.ReadAllText("../Isen.DotNet.Library/json/categories.json");
+            categories = JsonConvert.DeserializeObject<List<Categorie>>(json);
+
             _categorieRepository.UpdateRange(categories);
             _categorieRepository.Save();
 
