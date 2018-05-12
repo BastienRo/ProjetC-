@@ -17,6 +17,13 @@ namespace Isen.DotNet.Library.Repositories.DbContext
         {
         }
 
+        public Departement Code(int CodeDepartement)
+        {
+            var queryable = ModelCollection;
+            queryable = Includes(queryable);
+            return queryable.SingleOrDefault(c => c.CodeDepartement == CodeDepartement);
+        }
+        
         public override IQueryable<Departement> Includes(
             IQueryable<Departement> queryable)
             => queryable.Include(c => c.CommuneCollection);

@@ -135,6 +135,11 @@ namespace Isen.DotNet.Library.Data
             string json = File.ReadAllText("../Isen.DotNet.Library/json/communes.json");
             communes = JsonConvert.DeserializeObject<List<Commune>>(json);
 
+            foreach (var item in communes)
+            {
+                item.Departement = _departementRepository.Code(item.CodeDepartement);
+            }
+
             _communeRepository.UpdateRange(communes);
             _communeRepository.Save();
 
