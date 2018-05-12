@@ -1,22 +1,22 @@
 [
-    {
-      "Name": "Sport",
-      "Description": "Dépensez vous"
-    },
-    {
-      "Name": "Détente",
-      "Description": "Reposez vous"
-    },
-    {
-      "Name": "Gastronomie",
-      "Description": "Venez gôutez les bons produits"
-    },
-    {
-      "Name": "Commerce",
-      "Description": "Envie de shopping ?"
-    },
-    {
-      "Name": "Nature",
-      "Description": "Vous reviez d'un bol d'air frais ?"
-    }
-  ]
+  {
+    "Name": "Sport",
+    "Description": "Dépensez vous"
+  },
+  {
+    "Name": "Détente",
+    "Description": "Reposez vous"
+  },
+  {
+    "Name": "Gastronomie",
+    "Description": "Venez gôutez les bons produits"
+  },
+  {
+    "Name": "Commerce",
+    "Description": "Envie de shopping ?"
+  },
+  {
+    "Name": "Nature",
+    "Description": "Vous reviez d'un bol d'air frais ?"
+  }
+]

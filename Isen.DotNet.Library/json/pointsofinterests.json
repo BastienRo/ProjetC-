@@ -1,0 +1,15 @@
+[
+    {
+        "Name": "Fitness Park",
+        "Description": "Musclez vous",
+        "NameCategorie": "Sport",
+        "Adresse": {
+            "Name": "Mont Faron",
+            "LigneTxt": "Montagne a toulon",
+            "NameCommune": "Toulon",
+            "CodePostal": 83000,
+            "Latitude": 15,
+            "Longitude": 652
+        }
+    }
+]

@@ -151,17 +151,15 @@ namespace Isen.DotNet.Library.Data
             if (_adresseRepository.GetAll().Any()) return;
             _logger.LogWarning("Adding adresses");
 
-            var adresses = new List<Adresse>
+            var adresses = new List<Adresse>{};
+            /*string json = File.ReadAllText("../Isen.DotNet.Library/json/adresses.json");
+            adresses = JsonConvert.DeserializeObject<List<Adresse>>(json);
+
+            foreach (var item in adresses)
             {
-                new Adresse { 
-                    Name = "Mont Faron",
-                    LigneTxt = "Mont Faron",
-                    Commune = _communeRepository.Single("Toulon"),
-                    CodePostal = 83000,
-                    Latitude = 17,
-                    Longitude = 13
-                    }
-            };
+                item.Commune = _communeRepository.Single(item.NameCommune);
+            }*/
+
             _adresseRepository.UpdateRange(adresses);
             _adresseRepository.Save();
 
@@ -188,15 +186,16 @@ namespace Isen.DotNet.Library.Data
             if (_pointsRepository.GetAll().Any()) return;
             _logger.LogWarning("Adding points");
 
-            var points = new List<PointOfInterest>
+            var points = new List<PointOfInterest>{};
+            string json = File.ReadAllText("../Isen.DotNet.Library/json/pointsofinterests.json");
+            points = JsonConvert.DeserializeObject<List<PointOfInterest>>(json);
+
+            foreach (var item in points)
             {
-                new PointOfInterest { 
-                    Name = "Mont Faron",
-                    Description = "Montagne a Toulon",
-                    Categorie = _categorieRepository.Single("Nature"),
-                    Adresse = _adresseRepository.Single("Mont Faron"),
-                    }
-            };
+                item.Categorie = _categorieRepository.Single(item.NameCategorie);
+                item.Adresse.Commune = _communeRepository.Single(item.Adresse.NameCommune);
+            }
+
             _pointsRepository.UpdateRange(points);
             _pointsRepository.Save();
 
