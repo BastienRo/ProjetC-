@@ -6,7 +6,6 @@ namespace Isen.DotNet.Library.Models.Implementation
     public class Commune : BaseModel
     {
         public int CodeDepartement { get; set; }
-        //public Departement Departement => _departementRepository.Code(CodeDepartement);
         public Departement Departement { get; set; }
         public List<Adresse> AdresseCollection { get; set; }
         public float Latitude  { get;set;}

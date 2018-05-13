@@ -1,15 +1,15 @@
 [
     {
-        "Name": "Fitness Park Toulon",
-        "Description": "Musclez vous",
-        "NameCategorie": "Sport",
+        "Name": "Hard Rock Café Nice",
+        "Description": "Restaurant Rock'n Roll",
+        "NameCategorie": "Gastronomie",
         "Adresse": {
-            "Name": "Fitness Park Toulon",
-            "LigneTxt": "Centre Mayol, ZAC Besagne Dutasta Ferrailleurs, Rue du Mûrier",
-            "NameCommune": "Toulon",
-            "CodePostal": 83000,
-            "Latitude": 43.120538,
-            "Longitude": 5.935401
+            "Name": "Hard Rock Café Nice",
+            "LigneTxt": "5 Prom. des Anglais",
+            "NameCommune": "Nice",
+            "CodePostal": "06000",
+            "Latitude": 43.695394,
+            "Longitude": 7.264593
         }
     },
     {
@@ -20,7 +20,7 @@
             "Name": "Avenue 83",
             "LigneTxt": "300 Avenue de l'Université",
             "NameCommune": "La Valette-du-Var",
-            "CodePostal": 83160,
+            "CodePostal": "83160",
             "Latitude": 43.138010,
             "Longitude": 6.005086
         }
@@ -33,7 +33,7 @@
             "Name": "Parc Longchamp",
             "LigneTxt": "Boulevard Jardin Zoologique",
             "NameCommune": "Marseille",
-            "CodePostal": 13004,
+            "CodePostal": "13004",
             "Latitude": 43.306305,
             "Longitude": 5.393974
         }
@@ -46,7 +46,7 @@
             "Name": "Musée Granet",
             "LigneTxt": "Place Saint-Jean de Malte",
             "NameCommune": "Aix-en-Provence",
-            "CodePostal": 13100,
+            "CodePostal": "13100",
             "Latitude": 43.526404,
             "Longitude": 5.452683
         }
@@ -59,7 +59,7 @@
             "Name": "Isen Toulon",
             "LigneTxt": "Maison du Numérique et de l'Innovation, Place Georges Pompidou",
             "NameCommune": "Toulon",
-            "CodePostal": 83000,
+            "CodePostal": "83000",
             "Latitude": 43.120811,
             "Longitude": 5.939079
         }

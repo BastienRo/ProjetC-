@@ -1,12 +1,31 @@
-@using Isen.DotNet.Library.Repositories.Interfaces
+@using Isen.DotNet.Library.Repositories.Interfaces;
+@using Isen.DotNet.Library.Models.Implementation;
 @{
     ViewData["Title"] = "Map";
 }
+@inject ICategorieRepository _categorieRepository;
+@model PointOfInterest;
 
+<div class="row" style="margin-bottom:20px;">
+    <form class="form-horizontal">
+        <input type="hidden" value="@Model?.Id" asp-for="Id" />
+            <div class="col-md-4">
+                    @Html.DropDownListFor(
+                        p => p.CategorieId,
+                        new SelectList(
+                            _categorieRepository.GetAll(), 
+                            "Id",
+                            "Name"),
+                        "<Sélectionnez une catégorie>",
+                        new { @class = "form-control" })
+            </div>
+        <div class="col-md-4">
+            <input type="submit" class="btn btn-primary" value="Filtrer" />
+        </div>
+    </form>
+    <!-- https://www.c-sharpcorner.com/article/creating-simple-cascading-dropdownlist-in-asp-net-core-mvc-with-new-tag-helpers/ -->
+</div>
 
-
-
-    
 <div class="row">
     <div class="col-md-12">
         <style>
@@ -28,11 +47,7 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
         <script>
 
-            var url = "http://localhost:5000/api/Poi/departement/83";
-
-            
-
-            
+            var url = "http://localhost:5000/api/Poi/all";
 
             var json = (function() {
                 var json = null;

@@ -6,7 +6,7 @@ namespace Isen.DotNet.Library.Models.Implementation
     public class Adresse : BaseModel
     {
         public string LigneTxt { get; set; }
-        public int CodePostal { get; set; }
+        public string CodePostal { get; set; }
         public string NameCommune { get; set; }
         public Commune Commune { get; set; }
         public float Latitude { get; set; }
