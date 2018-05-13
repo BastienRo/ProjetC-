@@ -15,7 +15,6 @@
         <e p="Hello.cs" t="Include" />
         <e p="Isen.DotNet.Library.csproj" t="IncludeRecursive" />
         <e p="json" t="Include">
-          <e p="adresses.json" t="Include" />
           <e p="categories.json" t="Include" />
           <e p="communes.json" t="Include" />
           <e p="departements.json" t="Include" />
