@@ -101,10 +101,21 @@
 
                    
                     google.maps.event.addListener(marker, 'click', function() {
-                        infoWindow.close();
-                        infoWindow = new google.maps.InfoWindow();
-                        infoWindow.setContent(this.contentString);
-                        infoWindow.open(map, this);
+                        if (!marker.open) {
+                            infoWindow = new google.maps.InfoWindow();
+                            infoWindow.setContent(this.contentString);
+                            infoWindow.open(map, this);
+                            marker.open = true;
+
+                        } else {
+                            infoWindow.close();
+                            marker.open = false;
+                        }
+                        google.maps.event.addListener(map, 'click', function() {
+                            infoWindow.close();
+                            marker.open = false;
+                        });
+                        
                     });
                     markers.push(marker);
                 }

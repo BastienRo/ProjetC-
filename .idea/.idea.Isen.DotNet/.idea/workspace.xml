@@ -185,25 +185,26 @@
           <file leaf-file-name="Map.cshtml" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Isen.DotNet.Web/Views/Home/Map.cshtml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="55">
-                  <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+                <state relative-caret-position="820">
+                  <caret line="117" column="24" lean-forward="false" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
                   <folding>
-                    <marker date="1526218908395" expanded="true" signature="51:86" ph="@..." />
-                    <marker date="1526218908395" expanded="true" signature="96:3814" ph="&lt;div.../&gt;" />
-                    <marker date="1526218908395" expanded="true" signature="118:3807" ph="&lt;div.../&gt;" />
-                    <marker date="1526218908395" expanded="true" signature="150:582" ph="&lt;style.../&gt;" />
-                    <marker date="1526218908395" expanded="true" signature="164:276" ph="/* Always set the map height explicitly to define the size of the div ... */" />
-                    <marker date="1526218908395" expanded="true" signature="294:371" ph="{...}" />
-                    <marker date="1526218908395" expanded="true" signature="462:565" ph="{...}" />
-                    <marker date="1526218908395" expanded="true" signature="715:3625" ph="&lt;script.../&gt;" />
-                    <marker date="1526218908395" expanded="true" signature="859:1233" ph="{...}" />
-                    <marker date="1526218908395" expanded="true" signature="917:1188" ph="{...}" />
-                    <marker date="1526218908395" expanded="true" signature="1110:1170" ph="{...}" />
-                    <marker date="1526218908395" expanded="true" signature="1302:3605" ph="{...}" />
-                    <marker date="1526218908395" expanded="true" signature="1401:1511" ph="{...}" />
-                    <marker date="1526218908395" expanded="true" signature="2974:3115" ph="{...}" />
-                    <marker date="1526218908395" expanded="true" signature="3276:3529" ph="{...}" />
-                    <marker date="1526218908395" expanded="true" signature="3635:3796" ph="&lt;script.../&gt;" />
+                    <marker date="1526219388153" expanded="true" signature="51:86" ph="@..." />
+                    <marker date="1526219388153" expanded="true" signature="96:4262" ph="&lt;div.../&gt;" />
+                    <marker date="1526219388153" expanded="true" signature="118:4255" ph="&lt;div.../&gt;" />
+                    <marker date="1526219388153" expanded="true" signature="150:582" ph="&lt;style.../&gt;" />
+                    <marker date="1526219388153" expanded="true" signature="164:276" ph="/* Always set the map height explicitly to define the size of the div ... */" />
+                    <marker date="1526219388153" expanded="true" signature="294:371" ph="{...}" />
+                    <marker date="1526219388153" expanded="true" signature="462:565" ph="{...}" />
+                    <marker date="1526219388153" expanded="true" signature="715:4073" ph="&lt;script.../&gt;" />
+                    <marker date="1526219388153" expanded="true" signature="859:1233" ph="{...}" />
+                    <marker date="1526219388153" expanded="true" signature="917:1188" ph="{...}" />
+                    <marker date="1526219388153" expanded="true" signature="1110:1170" ph="{...}" />
+                    <marker date="1526219388153" expanded="true" signature="1302:4053" ph="{...}" />
+                    <marker date="1526219388153" expanded="true" signature="1401:1511" ph="{...}" />
+                    <marker date="1526219388153" expanded="true" signature="2974:3115" ph="{...}" />
+                    <marker date="1526219388153" expanded="true" signature="3276:3977" ph="{...}" />
+                    <marker date="1526219388153" expanded="true" signature="3804:3928" ph="{...}" />
+                    <marker date="1526219388153" expanded="true" signature="4083:4244" ph="&lt;script.../&gt;" />
                   </folding>
                 </state>
               </provider>
@@ -537,7 +538,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -668,7 +669,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93538000" />
+    <option name="totallyTimeSpent" value="93775000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -680,7 +681,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1243,25 +1244,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Isen.DotNet.Web/Views/Home/Map.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+        <state relative-caret-position="820">
+          <caret line="117" column="24" lean-forward="false" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
           <folding>
-            <marker date="1526218908395" expanded="true" signature="51:86" ph="@..." />
-            <marker date="1526218908395" expanded="true" signature="96:3814" ph="&lt;div.../&gt;" />
-            <marker date="1526218908395" expanded="true" signature="118:3807" ph="&lt;div.../&gt;" />
-            <marker date="1526218908395" expanded="true" signature="150:582" ph="&lt;style.../&gt;" />
-            <marker date="1526218908395" expanded="true" signature="164:276" ph="/* Always set the map height explicitly to define the size of the div ... */" />
-            <marker date="1526218908395" expanded="true" signature="294:371" ph="{...}" />
-            <marker date="1526218908395" expanded="true" signature="462:565" ph="{...}" />
-            <marker date="1526218908395" expanded="true" signature="715:3625" ph="&lt;script.../&gt;" />
-            <marker date="1526218908395" expanded="true" signature="859:1233" ph="{...}" />
-            <marker date="1526218908395" expanded="true" signature="917:1188" ph="{...}" />
-            <marker date="1526218908395" expanded="true" signature="1110:1170" ph="{...}" />
-            <marker date="1526218908395" expanded="true" signature="1302:3605" ph="{...}" />
-            <marker date="1526218908395" expanded="true" signature="1401:1511" ph="{...}" />
-            <marker date="1526218908395" expanded="true" signature="2974:3115" ph="{...}" />
-            <marker date="1526218908395" expanded="true" signature="3276:3529" ph="{...}" />
-            <marker date="1526218908395" expanded="true" signature="3635:3796" ph="&lt;script.../&gt;" />
+            <marker date="1526219388153" expanded="true" signature="51:86" ph="@..." />
+            <marker date="1526219388153" expanded="true" signature="96:4262" ph="&lt;div.../&gt;" />
+            <marker date="1526219388153" expanded="true" signature="118:4255" ph="&lt;div.../&gt;" />
+            <marker date="1526219388153" expanded="true" signature="150:582" ph="&lt;style.../&gt;" />
+            <marker date="1526219388153" expanded="true" signature="164:276" ph="/* Always set the map height explicitly to define the size of the div ... */" />
+            <marker date="1526219388153" expanded="true" signature="294:371" ph="{...}" />
+            <marker date="1526219388153" expanded="true" signature="462:565" ph="{...}" />
+            <marker date="1526219388153" expanded="true" signature="715:4073" ph="&lt;script.../&gt;" />
+            <marker date="1526219388153" expanded="true" signature="859:1233" ph="{...}" />
+            <marker date="1526219388153" expanded="true" signature="917:1188" ph="{...}" />
+            <marker date="1526219388153" expanded="true" signature="1110:1170" ph="{...}" />
+            <marker date="1526219388153" expanded="true" signature="1302:4053" ph="{...}" />
+            <marker date="1526219388153" expanded="true" signature="1401:1511" ph="{...}" />
+            <marker date="1526219388153" expanded="true" signature="2974:3115" ph="{...}" />
+            <marker date="1526219388153" expanded="true" signature="3276:3977" ph="{...}" />
+            <marker date="1526219388153" expanded="true" signature="3804:3928" ph="{...}" />
+            <marker date="1526219388153" expanded="true" signature="4083:4244" ph="&lt;script.../&gt;" />
           </folding>
         </state>
       </provider>
