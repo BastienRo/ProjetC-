@@ -17,7 +17,7 @@
         <form class="form-horizontal" asp-action="Detail">
             <input type="hidden" value="@Model?.Id" asp-for="Id" />
             <div>
-                <label for="Name" class="control-label">Nom du points d'intérêts :</label>
+                <label for="Name" class="control-label">Nom du points d'intérêt :</label>
                 <input type="text" class="form-control"
                     id="Name" placeholder="Nom du points d'intérêts"
                     value="@Model?.Name" asp-for="Name" />
@@ -51,7 +51,7 @@
                         _adresseRepository.GetAll(), 
                         "Id",
                         "Name"),
-                    "<Sélectionnez une adresse>",
+                    "<Sélectionnez une adresse une adress existante ou créer en une dans l'onglet adresse>",
                     new { @class = "form-control" })
             </div>
             <br />
