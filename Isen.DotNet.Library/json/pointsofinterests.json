@@ -1,15 +1,67 @@
 [
     {
-        "Name": "Fitness Park",
+        "Name": "Fitness Park Toulon",
         "Description": "Musclez vous",
         "NameCategorie": "Sport",
         "Adresse": {
-            "Name": "Mont Faron",
-            "LigneTxt": "Montagne a toulon",
+            "Name": "Fitness Park Toulon",
+            "LigneTxt": "Centre Mayol, ZAC Besagne Dutasta Ferrailleurs, Rue du Mûrier",
             "NameCommune": "Toulon",
             "CodePostal": 83000,
-            "Latitude": 48,
-            "Longitude": 2.0
+            "Latitude": 43.120538,
+            "Longitude": 5.935401
+        }
+    },
+    {
+        "Name": "Avenue 83",
+        "Description": "Le shopping à ciel ouvert",
+        "NameCategorie": "Commerce",
+        "Adresse": {
+            "Name": "Avenue 83",
+            "LigneTxt": "300 Avenue de l'Université",
+            "NameCommune": "La Valette-du-Var",
+            "CodePostal": 83160,
+            "Latitude": 43.138010,
+            "Longitude": 6.005086
+        }
+    },
+    {
+        "Name": "Parc Longchamp",
+        "Description": "Parc public datant du XIXe siècle avec animaux sculptés dans une cascade richement décorée & canal ornemental.",
+        "NameCategorie": "Culture",
+        "Adresse": {
+            "Name": "Parc Longchamp",
+            "LigneTxt": "Boulevard Jardin Zoologique",
+            "NameCommune": "Marseille",
+            "CodePostal": 13004,
+            "Latitude": 43.306305,
+            "Longitude": 5.393974
+        }
+    },
+    {
+        "Name": "Musée Granet",
+        "Description": "Musée d'Art et de Sculpture dans ancien prieuré des chevaliers de Malte, œuvres de Rembrandt, Ingres, Cézanne.",
+        "NameCategorie": "Culture",
+        "Adresse": {
+            "Name": "Musée Granet",
+            "LigneTxt": "Place Saint-Jean de Malte",
+            "NameCommune": "Aix-en-Provence",
+            "CodePostal": 13100,
+            "Latitude": 43.526404,
+            "Longitude": 5.452683
+        }
+    },
+    {
+        "Name": "Isen Toulon",
+        "Description": "Ecole d'ingénieurs des Hautes Technologies et du Numérique",
+        "NameCategorie": "Culture",
+        "Adresse": {
+            "Name": "Isen Toulon",
+            "LigneTxt": "Maison du Numérique et de l'Innovation, Place Georges Pompidou",
+            "NameCommune": "Toulon",
+            "CodePostal": 83000,
+            "Latitude": 43.120811,
+            "Longitude": 5.939079
         }
     }
 ]
