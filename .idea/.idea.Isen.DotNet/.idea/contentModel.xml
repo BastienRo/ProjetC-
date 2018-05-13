@@ -27,10 +27,8 @@
           <e p="Implementation" t="Include">
             <e p="Adresse.cs" t="Include" />
             <e p="Categorie.cs" t="Include" />
-            <e p="City.cs" t="Include" />
             <e p="Commune.cs" t="Include" />
             <e p="Departement.cs" t="Include" />
-            <e p="Person.cs" t="Include" />
             <e p="PointOfInterest.cs" t="Include" />
           </e>
         </e>
@@ -49,20 +47,16 @@
             <e p="_BaseDbContextRepository.cs" t="Include" />
             <e p="DbContextAdresseRepository.cs" t="Include" />
             <e p="DbContextCategorieRepository.cs" t="Include" />
-            <e p="DbContextCityRepository.cs" t="Include" />
             <e p="DbContextCommuneRepository.cs" t="Include" />
             <e p="DbContextDepartementRepository.cs" t="Include" />
-            <e p="DbContextPersonRepository.cs" t="Include" />
             <e p="DbContextPointOfInterestRepository.cs" t="Include" />
           </e>
           <e p="Interfaces" t="Include">
             <e p="_IBaseRepository.cs" t="Include" />
             <e p="IAdresseRepository.cs" t="Include" />
             <e p="ICategorieRepository.cs" t="Include" />
-            <e p="ICityRepository.cs" t="Include" />
             <e p="ICommuneRepository.cs" t="Include" />
             <e p="IDepartementRepository.cs" t="Include" />
-            <e p="IPersonRepository.cs" t="Include" />
             <e p="IPointOfInterestRepository.cs" t="Include" />
           </e>
         </e>
@@ -91,11 +85,9 @@
           <e p="_BaseController.cs" t="Include" />
           <e p="AdresseController.cs" t="Include" />
           <e p="CategoriesRepository.cs" t="Include" />
-          <e p="CityController.cs" t="Include" />
           <e p="CommuneController.cs" t="Include" />
           <e p="DepartementController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
-          <e p="PersonController.cs" t="Include" />
           <e p="PoiApiController.cs" t="Include" />
           <e p="PointOfInterestController.cs" t="Include" />
         </e>
@@ -124,10 +116,6 @@
             <e p="Detail.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
           </e>
-          <e p="City" t="Include">
-            <e p="Detail.cshtml" t="Include" />
-            <e p="Index.cshtml" t="Include" />
-          </e>
           <e p="Commune" t="Include">
             <e p="Detail.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
@@ -141,10 +129,6 @@
             <e p="Contact.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
             <e p="Map.cshtml" t="Include" />
-          </e>
-          <e p="Person" t="Include">
-            <e p="Detail.cshtml" t="Include" />
-            <e p="Index.cshtml" t="Include" />
           </e>
           <e p="PointOfInterest" t="Include">
             <e p="Detail.cshtml" t="Include" />

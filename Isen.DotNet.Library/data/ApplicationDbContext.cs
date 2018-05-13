@@ -6,8 +6,6 @@ namespace Isen.DotNet.Library.Data
     public class ApplicationDbContext : DbContext
     {
         // 1 - Préciser les DbSet
-        public DbSet<City> CityCollection { get;set; }
-        public DbSet<Person> PersonCollection { get;set; }
         public DbSet<PointOfInterest> PointOfInterestCollection { get; set; }
         public DbSet<Categorie> CategoriePointCollection { get; set; }
         public DbSet<Adresse> AdresseCollection { get; set; }
@@ -24,18 +22,7 @@ namespace Isen.DotNet.Library.Data
             base.OnModelCreating(builder);
             
             // 2 - Configurer les mappings tables / classes
-            builder.Entity<City>()
-                .ToTable("City")
-                .HasMany(c => c.PersonCollection)
-                .WithOne(p => p.City)
-                .OnDelete(DeleteBehavior.SetNull);
-
-            builder.Entity<Person>()
-                .ToTable("Person")
-                .HasOne(p => p.City)
-                .WithMany(c => c.PersonCollection)
-                .HasForeignKey(p => p.CityId);
-
+           
             builder.Entity<Departement>()
                 .ToTable("Departement")
                 .HasMany(c => c.CommuneCollection)

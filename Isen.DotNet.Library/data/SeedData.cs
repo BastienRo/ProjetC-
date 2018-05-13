@@ -13,8 +13,6 @@ namespace Isen.DotNet.Library.Data
     {
         private readonly ApplicationDbContext _context;
         private readonly ILogger<SeedData> _logger;
-        private readonly ICityRepository _cityRepository;
-        private readonly IPersonRepository _personRepository;
         private readonly IDepartementRepository _departementRepository;
         private readonly ICommuneRepository _communeRepository;
         private readonly IPointOfInterestRepository _pointsRepository;
@@ -24,8 +22,6 @@ namespace Isen.DotNet.Library.Data
         public SeedData(
             ApplicationDbContext context,
             ILogger<SeedData> logger,
-            ICityRepository cityRepository,
-            IPersonRepository personRepository,
             IDepartementRepository departementRepository,
             ICommuneRepository communeRepository,
             IAdresseRepository adresseRepository,
@@ -34,8 +30,6 @@ namespace Isen.DotNet.Library.Data
         {
             _context = context;
             _logger = logger;
-            _cityRepository = cityRepository;
-            _personRepository = personRepository;
             _communeRepository = communeRepository;
             _adresseRepository = adresseRepository;
             _categorieRepository = categorieRepository;
@@ -57,59 +51,7 @@ namespace Isen.DotNet.Library.Data
             _logger.LogWarning($"Database was {not}created.");
         }
 
-        public void AddCities()
-        {
-            if (_cityRepository.GetAll().Any()) return;
-            _logger.LogWarning("Adding cities");
-
-            var cities = new List<City>
-            {
-                new City { Name = "Toulon" },
-                new City { Name = "Marseille" },
-                new City { Name = "Nice" },
-                new City { Name = "Paris" },
-                new City { Name = "Epinal" }
-            };
-            _cityRepository.UpdateRange(cities);
-            _cityRepository.Save();
-
-            _logger.LogWarning("Added cities");
-        }
-
-        public void AddPersons()
-        {
-            if (_personRepository.GetAll().Any()) return;
-            _logger.LogWarning("Adding persons");
-
-            var persons = new List<Person>
-            {
-                new Person
-                {
-                    FirstName = "Calendau",
-                    LastName = "GUQUET",
-                    BirthDate = new DateTime(1980,2,28),
-                    City = _cityRepository.Single("Toulon")
-                },
-                new Person
-                {
-                    FirstName = "John",
-                    LastName = "APPLESEED",
-                    BirthDate = new DateTime(1971,12,14),
-                    City = _cityRepository.Single("Marseille")
-                },
-                new Person
-                {
-                    FirstName = "Steve",
-                    LastName = "JOBS",
-                    BirthDate = new DateTime(1949,2,24),
-                    City = _cityRepository.Single("Marseille")
-                }
-            };
-            _personRepository.UpdateRange(persons);
-            _personRepository.Save();
-
-            _logger.LogWarning("Added persons");
-        }
+       
 
         public void AddDepartements()
         {
