@@ -22,6 +22,7 @@
                 <th>Description</th>
                 <th>Catégorie</th>
                 <th>Adresse</th>
+                <th>Latitude, Longitude</th>
                 <th></th>
             </tr>
         </thead>
@@ -33,7 +34,8 @@
                 <td>@point.Name</td>
                 <td>@point.Description</td>
                 <td>@point.Categorie?.Name</td>
-                <td>@point.Adresse?.Name</td>
+                <td>@point.Adresse?.LigneTxt, @point.Adresse?.CodePostal @point.Adresse?.Commune?.Name</td>
+                <td>@point.Adresse?.Latitude, @point.Adresse?.Longitude</td>
                 <td>
                     <a class="btn btn-default" asp-controller="PointOfInterest" asp-action="Detail" asp-route-id="@point.Id">Editer</a>
                     &nbsp;
