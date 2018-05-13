@@ -3,15 +3,16 @@
     ViewData["Desc"] = "Description longue du site";
     var urls = new List<string>
     {
-        "http://localhost:5000/Home/Index",
-        "http://localhost:5000/Home/About",
-        "http://localhost:5000/Home/Contact"
+        "http://localhost:5000/api/Poi/all",
+        "http://localhost:5000/api/Poi/departement/83",
+        "http://localhost:5000/api/Poi/commune/Toulon"
     };
 }
 <div class="row">
     <div class="col-md-12">
         <h1>Home <small>/home/index</small></h1>
-        <p>Ceci est le contenu de la vue Home, action Index</p>
+        <p>Nous avons créer une Api qui renvoie les Poi sous forme de Json en fonction du nom de la commune ou du code departement, Vous pouvez donc essayer les liens suivants,
+            Pour la question 4 nous n'avons pas réussi a liéer l'api avec les liste déroulante pour filter les Points d'interêts</p>
     </div>
 </div>
 <div class="row">

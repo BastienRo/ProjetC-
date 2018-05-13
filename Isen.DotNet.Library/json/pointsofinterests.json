@@ -63,5 +63,57 @@
             "Latitude": 43.120811,
             "Longitude": 5.939079
         }
+    },
+    {
+      "Name": "Gorges du Verdon",
+      "Description": "Les fameuses gorges à visiter",
+      "NameCategorie": "Nature",
+      "Adresse": {
+        "Name": "Gorges du Verdon",
+        "LigneTxt": "Ravin",
+        "NameCommune": "Aiguines",
+        "CodePostal": "83630",
+        "Latitude":  43.740572,
+        "Longitude":  6.380060
+      }
+    },
+    {
+      "Name": "Parc national de Camargue",
+      "Description": "Parc de nature",
+      "NameCategorie": "Nature",
+      "Adresse": {
+        "Name": "Parc national de Camargue",
+        "LigneTxt": "Parc naturel",
+        "NameCommune": "Arles",
+        "CodePostal": "13104",
+        "Latitude":   43.626135,
+        "Longitude":   4.523677
+      }
+    },
+    {
+      "Name": "Plaines des Maures",
+      "Description": "Plaines agricoles",
+      "NameCategorie": "Nature",
+      "Adresse": {
+        "Name": "Plaines des Maures",
+        "LigneTxt": "Grande plaine verte",
+        "NameCommune": "Les Mayons",
+        "CodePostal": "83340",
+        "Latitude":  43.353296,
+        "Longitude":  6.396904
+      }
+    },
+    {
+      "Name": "Saint-Tropez",
+      "Description": "La fameuse ville tropézienne",
+      "NameCategorie": "Culture",
+      "Adresse": {
+        "Name": "Saint-Tropez",
+        "LigneTxt": "67 Rue du hasard",
+        "NameCommune": "Saint-Tropez",
+        "CodePostal": "83990",
+        "Latitude":  43.267383,
+        "Longitude":   6.640411
+      }
     }
 ]
