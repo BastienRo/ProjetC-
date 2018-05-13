@@ -13,6 +13,9 @@
     <form class="form-horizontal">
         <input type="hidden" value="@Model?.Id" asp-for="Id" />
             <div class="col-md-3">
+                <label for="CategorieId">
+                    Categorie : 
+                </label>
                     @Html.DropDownListFor(
                         p => p.CategorieId,
                         new SelectList(
@@ -23,6 +26,9 @@
                         new { @class = "form-control" })
             </div>
             <div class="col-md-3">
+                <label for="CommuneId">
+                    Commune : 
+                </label>
                     @Html.DropDownListFor(
                     p => p.Adresse.CommuneId,
                     new SelectList(
@@ -33,6 +39,9 @@
                     new { @class = "form-control" })
             </div>
             <div class="col-md-3">
+                <label for="DepartementId">
+                    Département : 
+                </label>
                     @Html.DropDownListFor(
                     p => p.Adresse.Commune.DepartementId,
                     new SelectList(
@@ -43,6 +52,7 @@
                     new { @class = "form-control" })
             </div>
         <div class="col-md-3">
+            <br/>
             <input type="submit" class="btn btn-primary" value="Filtrer" />
         </div>
     </form>
