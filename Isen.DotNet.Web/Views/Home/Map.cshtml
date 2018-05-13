@@ -4,12 +4,15 @@
     ViewData["Title"] = "Map";
 }
 @inject ICategorieRepository _categorieRepository;
+@inject ICommuneRepository _communeRepository;
+@inject IDepartementRepository _departementRepository;
 @model PointOfInterest;
 
 <div class="row" style="margin-bottom:20px;">
+    <h2>Filtrer les Points d'interêts</h2>
     <form class="form-horizontal">
         <input type="hidden" value="@Model?.Id" asp-for="Id" />
-            <div class="col-md-4">
+            <div class="col-md-3">
                     @Html.DropDownListFor(
                         p => p.CategorieId,
                         new SelectList(
@@ -19,11 +22,30 @@
                         "<Sélectionnez une catégorie>",
                         new { @class = "form-control" })
             </div>
-        <div class="col-md-4">
+            <div class="col-md-3">
+                    @Html.DropDownListFor(
+                    p => p.Adresse.CommuneId,
+                    new SelectList(
+                        _communeRepository.GetAll(), 
+                        "Id",
+                        "Name"),
+                    "<Sélectionnez une commune>",
+                    new { @class = "form-control" })
+            </div>
+            <div class="col-md-3">
+                    @Html.DropDownListFor(
+                    p => p.Adresse.Commune.DepartementId,
+                    new SelectList(
+                        _departementRepository.GetAll(), 
+                        "Id",
+                        "Name"),
+                    "<Sélectionnez un département>",
+                    new { @class = "form-control" })
+            </div>
+        <div class="col-md-3">
             <input type="submit" class="btn btn-primary" value="Filtrer" />
         </div>
     </form>
-    <!-- https://www.c-sharpcorner.com/article/creating-simple-cascading-dropdownlist-in-asp-net-core-mvc-with-new-tag-helpers/ -->
 </div>
 
 <div class="row">
